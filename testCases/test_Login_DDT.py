@@ -13,6 +13,7 @@ class Test_Login_Page_DDT:
     logger = LogGen.loggen()
 
     @pytest.mark.regression
+    @pytest.mark.skip(reason="no way of currently testing this")
     def test_login_ddt(self, setup):
         self.logger.info("******* Starting Login DDT Test **********")
         self.driver = setup

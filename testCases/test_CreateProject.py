@@ -60,11 +60,12 @@ class Test_CreateProject:
         self.logger.info("Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI")
         create_project.clickOnNextButton()
         self.logger.info("Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table")
-        time.sleep(20)
+        time.sleep(40)
         create_project.clickOnCreateProject()
         self.logger.info("Step-10 : Project Summary - Details of the Project set up")
         create_project.verify_project_toast_message()
-        time.sleep(60)
+        time.sleep(40)
+        self.driver.refresh()
 
         # Verify the project name
         created_project_name = create_project.get_created_project_name()
