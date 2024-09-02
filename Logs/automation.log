@@ -228,3 +228,24 @@
 08/30/2024 11:48:16 AM: INFO: ***** Testing Create Task *****
 08/30/2024 11:58:53 AM: INFO: ***** Testing Create Task *****
 08/30/2024 11:59:54 AM: INFO: ***** Testing Create Task *****
+08/30/2024 02:32:45 PM: INFO: Testing Login with Valid Credentials
+08/30/2024 02:33:00 PM: INFO: Testing Login with Invalid Credentials
+08/30/2024 02:33:16 PM: INFO: Testing Homepage Title
+08/30/2024 02:33:50 PM: INFO: ***** Testing Create Project *****
+08/30/2024 02:37:45 PM: INFO: ***** Testing Create Project *****
+08/30/2024 02:38:18 PM: INFO: ***** Testing Create Task *****
+08/30/2024 02:39:27 PM: INFO: Testing Login with Valid Credentials
+08/30/2024 02:39:41 PM: INFO: Testing Login with Invalid Credentials
+08/30/2024 02:39:50 PM: INFO: Testing Homepage Title
+08/30/2024 02:39:59 PM: INFO: ******* Starting Login DDT Test **********
+08/30/2024 02:40:05 PM: INFO: Total number of rows in 'Sheet1': 5
+08/30/2024 02:40:05 PM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
+08/30/2024 02:40:05 PM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
+08/30/2024 02:40:05 PM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
+08/30/2024 02:41:50 PM: INFO: **** Passed 1****
+09/02/2024 11:35:21 AM: INFO: Testing Login with Valid Credentials
+09/02/2024 11:35:37 AM: INFO: Testing Login with Invalid Credentials
+09/02/2024 11:35:46 AM: INFO: Testing Homepage Title
+09/02/2024 11:36:33 AM: INFO: ***** Testing Create Project with required fields only*****
+09/02/2024 11:37:48 AM: INFO: ***** Testing Create Task *****
+09/02/2024 11:50:20 AM: INFO: ***** Testing Create Project with required fields only*****

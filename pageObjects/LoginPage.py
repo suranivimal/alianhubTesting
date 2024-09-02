@@ -1,9 +1,5 @@
-import time
-
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from utilities.commom_utils import webdriver_wait
-from selenium.webdriver.support import expected_conditions as EC
+from utilities.commom_utils import *
 
 
 class LoginPage:
@@ -12,6 +8,7 @@ class LoginPage:
     textbox_password_id = "password"
     button_login_xpath = "//button[normalize-space()='Login']"
     toast_message_xpath = "//div[contains(@class, 'v-toast--top')]"
+
 
     def __init__(self, driver):
         self.driver = driver
@@ -32,11 +29,12 @@ class LoginPage:
         self.driver.find_element(By.ID, self.textbox_password_id).clear()
         self.driver.find_element(By.ID, self.textbox_password_id).send_keys(userpassword)
 
+
     def clickOnLogin(self):
         self.driver.find_element(By.XPATH, self.button_login_xpath).click()
 
     def wait_for_home_page(self):
-        webdriver_wait(driver=self.driver, element_title="Alian Hub | Home", timeout=50)
+        webdriver_wait_for_title_contains(driver=self.driver,element_title="Alian Hub | Home",timeout=50)
 
     def get_element(self, locator_name, locator_value):
         element = None

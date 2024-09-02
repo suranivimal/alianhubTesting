@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-
 class Dashboard:
+
     button_profile_xpath = "//*[@class='profile-image asignee-profile']"
     button_logout_xpath = "//span[@class='project-mobile-desc']"
 

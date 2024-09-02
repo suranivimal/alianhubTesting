@@ -5,7 +5,6 @@ import pytest
 from pageObjects.CreateProject import CreateProject
 from pageObjects.CreateTask import CreateTask
 from pageObjects.LoginPage import LoginPage
-from utilities.commom_utils import capture_screenshot
 from utilities.customlogger import LogGen
 from utilities.readProperities import ReadConfig
 
@@ -29,16 +28,15 @@ class Test_CreateTask:
         self.login_page.setUserName(self.username)
         self.login_page.setPassword(self.password)
         self.login_page.clickOnLogin()
-        time.sleep(30)
-        self.create_project = CreateProject(self.driver)
-        time.sleep(30)
-        self.create_project.clickOnMenuLink()
-        time.sleep(60)
-
-        self.create_project.select_created_project(self.projectname)
         self.login_page.wait_for_home_page()
-        assert self.driver.title == "Alian Hub | Home"
-        time.sleep(60)
+
+        self.create_project = CreateProject(self.driver)
+        self.create_project.clickOnMenuLink()
+        self.create_project.wait_for_projects_element()
+
+        self.create_project.select_created_project()
+        # self.login_page.wait_for_home_page()
+        # assert self.driver.title == "Alian Hub | Home"
 
         create_project = CreateProject(self.driver)
         create_project.clickOnMenuLink()
@@ -46,28 +44,17 @@ class Test_CreateTask:
 
         create_task = CreateTask(self.driver)
         create_task.clickOnTask()
-        time.sleep(30)
-        create_task.setTaskName("Task 123")
-        time.sleep(30)
+        # time.sleep(25)
+        create_task.setTaskName("Test Task 101")
+        # time.sleep(25)
         create_task.clickOnSave()
+        create_task.verify_task_toast_message()
         self.driver.refresh()
-        time.sleep(60)
 
         # Verify task creation
         task_name = create_task.verify_task_name()
         print(task_name)
-        # assert task_name == "Task 123", f"Expected task name 'Task 123' but got '{task_name}'"
-
-        if task_name == "Task 123":
-            self.logger.info("Create Task Successfully .")
-            allure.attach(self.driver.get_screenshot_as_png(), name='create_task_pass')
-            assert True
-        else:
-            self.logger.error(
-                f"Task 123", f"Expected task name 'Task 123' but got '{task_name}")
-            allure.attach(self.driver.get_screenshot_as_png(), name='create_task_fail')
-            capture_screenshot(self.driver, "create_task_fail")
-            assert False
+        assert task_name == "Test Task 101", f"Expected task name 'Test Task 101' but got '{task_name}'"
 
         # Select the task and change status
         # create_task.click_task_name()
