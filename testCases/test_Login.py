@@ -17,15 +17,18 @@ class Test_LoginPage:
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#01 - Alian Hub Positive Test")
     @pytest.mark.positive
+    @pytest.mark.regression
     def test_login_with_valid_credentials(self, setup):
         self.logger.info("Testing Login with Valid Credentials")
         self.driver = setup
         self.driver.get(self.baseUrl)
         self.driver.maximize_window()
+
         login_page = LoginPage(self.driver)
         login_page.setUserName(self.username)
         login_page.setPassword(self.password)
         login_page.clickOnLogin()
+
         login_page.wait_for_home_page()
         actual_title = self.driver.title
 
@@ -40,6 +43,7 @@ class Test_LoginPage:
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#02 - Alian Hub Negative Test")
     @pytest.mark.negative
+    @pytest.mark.regression
     def test_login_with_invalid_credentials(self, setup):
         self.logger.info("Testing Login with Invalid Credentials")
         self.driver = setup
@@ -65,6 +69,7 @@ class Test_LoginPage:
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#03 - Alian Hub Positive Test")
     @pytest.mark.positive
+    @pytest.mark.regression
     def test_home_page_title(self, setup):
         self.logger.info("Testing Homepage Title")
         self.driver = setup

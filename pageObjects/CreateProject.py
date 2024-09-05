@@ -33,9 +33,14 @@ class CreateProject:
         self.driver.find_element(By.XPATH, self.button_newproject).click()
 
     def clickOnBlankProject(self):
-        locator = (By.CSS_SELECTOR, ".font-size-18.font-weight-700.blue")
-        webdriver_wait_for_text_in_element(driver=self.driver, locator=locator, text="Create Project", timeout=60)
-        self.driver.find_element(By.XPATH, self.button_blank_project).click()
+        locator = (By.XPATH, "//div[@id='createblankproject_driver']//button[@type='button']")
+        webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
+        self.driver.find_element(*locator).click()
+
+    def clickOnTemplateProject(self):
+        locator = (By.XPATH, "(//button[@type='button'])[2]")
+        webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
+        self.driver.find_element(*locator).click()
 
     def setProjectName(self, projectname):
         self.driver.find_element(By.XPATH, self.textbox_project_name).clear()
@@ -57,11 +62,26 @@ class CreateProject:
         webdriver_wait_for_text_in_element(driver=self.driver, locator=locator, text="Next", timeout=60)
         self.driver.find_element(*locator).click()
 
+    def clickOnViewRadioButton(self):
+        locator = (By.XPATH, "//div[@id='my-sidebar']//div[3]//div[2]//div[2]")
+        webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
+        self.driver.find_element(*locator).click()
+
+    def selectTemplates(self):
+        locator = (By.XPATH, "//div[@class='template_project_img']//img[@class='cursor-pointer']")
+        webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
+        self.driver.find_element(*locator).click()
+
+    def clickOnUseTemplateButton(self):
+        locator = (By.XPATH, "//button[normalize-space()='Use Template']")
+        webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
+        self.driver.find_element(*locator).click()
+
     def clickOnCreateProject(self):
-        # locator = (By.XPATH,"(//button[normalize-space()='Create Project'])[1]")
-        # webdriver_wait_for_visibility_of_element_located(driver=self.driver,element_tuple=locator,timeout=60)
-        # self.driver.find_element(*locator).click()
-        self.driver.find_element(By.XPATH, self.button_create_project).click()
+        locator = (By.XPATH, "(//button[normalize-space()='Create Project'])[1]")
+        webdriver_wait_for_visibility_of_element_located(driver=self.driver, element_tuple=locator, timeout=60)
+        self.driver.find_element(*locator).click()
+        # self.driver.find_element(By.XPATH,self.button_create_project).click()
 
     def verify_project_toast_message(self):
         toast_locator = (
