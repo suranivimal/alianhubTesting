@@ -46,6 +46,12 @@ class CreateProject:
         self.driver.find_element(By.XPATH, self.textbox_project_name).clear()
         self.driver.find_element(By.XPATH, self.textbox_project_name).send_keys(projectname)
 
+    def setProjectKey(self, projectkey):
+        locator = (By.XPATH, "//div[@id='createprojectkey_driver']//input[@id='inputId']")
+        webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
+        self.driver.find_element(*locator).clear()
+        self.driver.find_element(*locator).send_keys(projectkey)
+
     def clickOnCategory(self):
         locator = (By.XPATH, "//div[@id='createprojectcategory_driver']//input[@id='inputId']")
         webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)

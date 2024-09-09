@@ -17,72 +17,77 @@ class Test_LoginPage:
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#01 - Alian Hub Positive Test")
     @pytest.mark.positive
-    @pytest.mark.regression
     def test_login_with_valid_credentials(self, setup):
         self.logger.info("Testing Login with Valid Credentials")
         self.driver = setup
         self.driver.get(self.baseUrl)
         self.driver.maximize_window()
 
-        login_page = LoginPage(self.driver)
-        login_page.setUserName(self.username)
-        login_page.setPassword(self.password)
-        login_page.clickOnLogin()
+        try:
 
-        login_page.wait_for_home_page()
-        actual_title = self.driver.title
+            login_page = LoginPage(self.driver)
+            login_page.setUserName(self.username)
+            login_page.setPassword(self.password)
+            login_page.clickOnLogin()
 
-        if actual_title == 'Alian Hub | Home':
+            login_page.wait_for_home_page()
+            actual_title = self.driver.title
+
+            assert actual_title == 'Alian Hub | Home', f"Expected title 'Alian Hub | Home' but got '{actual_title}'"
             allure.attach(self.driver.get_screenshot_as_png(), name='test_login_with_valid_credentials_passed')
-            assert True
-        else:
-            self.logger.error("Login with valid credentials failed.")
+            self.logger.info("Login with valid credentials passed.")
+
+        except Exception as e:
+            self.logger.error(f"An error occurred during login with valid credentials: {str(e)}")
             capture_screenshot(self.driver, "test_login_with_valid_credentials_failed")
-            assert False
+            assert False, f"Test failed due to {str(e)}"
 
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#02 - Alian Hub Negative Test")
     @pytest.mark.negative
-    @pytest.mark.regression
     def test_login_with_invalid_credentials(self, setup):
         self.logger.info("Testing Login with Invalid Credentials")
         self.driver = setup
         self.driver.get(self.baseUrl)
         self.driver.maximize_window()
 
-        login_page = LoginPage(self.driver)
-        login_page.setUserName(self.invalid_email)
-        login_page.setPassword(self.invalid_password)
-        login_page.clickOnLogin()
+        try:
 
-        expected_warning_message = "Invalid username or password."
+            login_page = LoginPage(self.driver)
+            login_page.setUserName(self.invalid_email)
+            login_page.setPassword(self.invalid_password)
+            login_page.clickOnLogin()
 
-        if LoginPage.retrieve_warning_message.__eq__(expected_warning_message):
+            expected_warning_message = "Invalid username or password."
+            actual_warning_message = login_page.retrieve_warning_message()
+
+            assert actual_warning_message == expected_warning_message, (
+                f"Expected warning message '{expected_warning_message}' but got '{actual_warning_message}'"
+            )
             allure.attach(self.driver.get_screenshot_as_png(), name='test_login_with_invalid_credentials_passed')
-            assert True
-        else:
-            self.logger.error("Login with invalid credentials did not show expected warning.")
-            allure.attach(self.driver.get_screenshot_as_png(), name='test_login_with_invalid_credentials_failed')
-            capture_screenshot(self.driver, "test_login_with_invalid_credentials")
-            assert False
+            self.logger.info("Login with invalid credentials passed.")
+
+        except Exception as e:
+            self.logger.error(f"An error occurred during login with invalid credentials: {str(e)}")
+            capture_screenshot(self.driver, "test_login_with_invalid_credentials_failed")
+            assert False, f"Test failed due to {str(e)}"
 
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#03 - Alian Hub Positive Test")
     @pytest.mark.positive
-    @pytest.mark.regression
     def test_home_page_title(self, setup):
         self.logger.info("Testing Homepage Title")
         self.driver = setup
         self.driver.get(self.baseUrl)
         self.driver.maximize_window()
 
-        actual_title = self.driver.title
+        try:
+            actual_title = self.driver.title
 
-        if actual_title == 'Alian Hub | Login':
+            assert actual_title == 'Alian Hub | Login', f"Expected title 'Alian Hub | Login' but got '{actual_title}'"
             allure.attach(self.driver.get_screenshot_as_png(), name='test_home_page_title_passed')
-            assert True
-        else:
-            self.logger.error("Homepage title does not match expected value.")
-            allure.attach(self.driver.get_screenshot_as_png(), name='test_home_page_title_failed')
+            self.logger.info("Homepage title verification passed.")
+        except Exception as e:
+            self.logger.error(f"An error occurred during homepage title verification: {str(e)}")
             capture_screenshot(self.driver, "test_home_page_title_failed")
-            assert False
+            assert False, f"Test failed due to {str(e)}"

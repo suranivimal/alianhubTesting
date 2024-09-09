@@ -7,7 +7,7 @@ def webdriver_wait_for_title_is(driver, element_title, timeout=60):
     WebDriverWait(driver, timeout).until(EC.title_is(element_title))
 
 
-def webdriver_wait_for_title_contains(driver, element_title, timeout=50):
+def webdriver_wait_for_title_contains(driver, element_title, timeout=60):
     WebDriverWait(driver, timeout=timeout).until(EC.title_contains(element_title))
 
 
@@ -15,7 +15,7 @@ def webdriver_for_presence_of_element_located(driver, locator, timeout=60):
     WebDriverWait(driver, timeout).until(EC.presence_of_element_located(locator))
 
 
-def webdriver_wait_for_visibility_of_element_located(driver, element_tuple, timeout=50):
+def webdriver_wait_for_visibility_of_element_located(driver, element_tuple, timeout=60):
     WebDriverWait(driver, timeout=timeout).until(EC.visibility_of_element_located(element_tuple))
 
 

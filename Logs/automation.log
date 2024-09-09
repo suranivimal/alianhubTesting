@@ -595,3 +595,105 @@ Stacktrace:
 09/05/2024 02:44:12 PM: INFO: Task name verification passed.
 09/05/2024 02:46:00 PM: INFO: ***** Testing Create Task *****
 09/05/2024 02:46:23 PM: INFO: Task name verification passed.
+09/05/2024 02:50:02 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/05/2024 02:50:22 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/05/2024 02:50:23 PM: INFO: Step-2 : Project Detail
+09/05/2024 02:50:23 PM: INFO: Step-3 : Project Avatar or Project Color
+09/05/2024 02:50:23 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/05/2024 02:50:23 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/05/2024 02:50:23 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/05/2024 02:50:23 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/05/2024 02:50:23 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/05/2024 02:50:24 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/05/2024 02:50:24 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/05/2024 02:50:32 PM: INFO: Project name verification testcase passed
+09/05/2024 02:50:36 PM: INFO: ***** Testing Create Project using template with required fields only*****
+09/05/2024 02:51:31 PM: INFO: Project name verification testcase passed
+09/05/2024 02:51:35 PM: INFO: ***** Testing Create Task *****
+09/05/2024 02:52:01 PM: INFO: Task name verification passed.
+09/05/2024 02:52:05 PM: INFO: Testing Login with Valid Credentials
+09/05/2024 02:52:21 PM: INFO: Testing Login with Invalid Credentials
+09/05/2024 02:52:31 PM: INFO: Testing Homepage Title
+09/05/2024 03:14:06 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/05/2024 03:14:27 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/05/2024 03:14:28 PM: INFO: Step-2 : Project Detail
+09/05/2024 03:14:28 PM: INFO: Step-3 : Project Avatar or Project Color
+09/05/2024 03:14:28 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/05/2024 03:14:28 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/05/2024 03:14:29 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/05/2024 03:14:29 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/05/2024 03:14:29 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/05/2024 03:15:33 PM: INFO: ***** Testing Create Project using template with required fields only*****
+09/05/2024 03:16:34 PM: ERROR: Project name verification testcase failed. Expected: Test Project b9315c40, Found: Test Project B9315c40
+09/05/2024 03:16:38 PM: INFO: ***** Testing Create Task *****
+09/05/2024 03:17:09 PM: INFO: Task name verification passed.
+09/05/2024 03:17:13 PM: INFO: Testing Login with Valid Credentials
+09/05/2024 03:17:23 PM: INFO: Testing Login with Invalid Credentials
+09/05/2024 03:17:34 PM: INFO: Testing Homepage Title
+09/09/2024 01:35:48 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/09/2024 01:36:54 PM: ERROR: An error occurred: Message: 
+
+09/09/2024 01:37:00 PM: INFO: ***** Testing Create Project using template with required fields only *****
+09/09/2024 01:37:11 PM: INFO: Successfully logged in.
+09/09/2024 01:37:35 PM: INFO: Generated project name: Project Test A1f4c675, project key: PROJ-4BD0CAEE
+09/09/2024 01:38:24 PM: INFO: Project name verification testcase passed
+09/09/2024 01:38:51 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/09/2024 01:39:01 PM: INFO: Successfully logged in.
+09/09/2024 01:39:24 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/09/2024 01:39:25 PM: INFO: Step-2 : Project Detail
+09/09/2024 01:39:25 PM: INFO: Generated project name: Project Test 104eaa85, project key: PROJ-2885F3D2
+09/09/2024 01:39:26 PM: INFO: Step-3 : Project Avatar or Project Color
+09/09/2024 01:39:26 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/09/2024 01:39:26 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/09/2024 01:39:26 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/09/2024 01:39:26 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/09/2024 01:39:26 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/09/2024 01:39:26 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/09/2024 01:39:27 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/09/2024 02:03:12 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/09/2024 02:03:21 PM: INFO: Successfully logged in.
+09/09/2024 02:03:27 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/09/2024 02:03:27 PM: INFO: Step-2 : Project Detail
+09/09/2024 02:03:27 PM: INFO: Generated project name: Project Test 2f5b22f0, project key: PROJ-A0EB0ED8
+09/09/2024 02:03:29 PM: INFO: Step-3 : Project Avatar or Project Color
+09/09/2024 02:03:29 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/09/2024 02:03:29 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/09/2024 02:03:29 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/09/2024 02:03:29 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/09/2024 02:03:29 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/09/2024 02:03:29 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/09/2024 02:03:30 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/09/2024 02:04:14 PM: INFO: ***** Testing Create Project using template with required fields only *****
+09/09/2024 02:04:23 PM: INFO: Successfully logged in.
+09/09/2024 02:04:34 PM: INFO: Generated project name: Project Test 28ebb77a, project key: PROJ-EE7303DB
+09/09/2024 02:05:11 PM: INFO: Project name verification testcase passed
+09/09/2024 02:05:15 PM: INFO: ***** Testing Create Task *****
+09/09/2024 02:05:23 PM: INFO: Logged in successfully.
+09/09/2024 02:05:30 PM: INFO: Navigated to the Projects section.
+09/09/2024 02:05:32 PM: INFO: Selected project: Test Project
+09/09/2024 02:05:32 PM: INFO: Project page title verified.
+09/09/2024 02:05:35 PM: INFO: Task 'Task_3ce2fc' created successfully.
+09/09/2024 02:05:41 PM: INFO: Verified task name: Task_3ce2fc
+09/09/2024 02:05:45 PM: INFO: Testing Login with Valid Credentials
+09/09/2024 02:06:01 PM: INFO: Login with valid credentials passed.
+09/09/2024 02:06:04 PM: INFO: Testing Login with Invalid Credentials
+09/09/2024 02:06:11 PM: INFO: Login with invalid credentials passed.
+09/09/2024 02:06:15 PM: INFO: Testing Homepage Title
+09/09/2024 02:06:20 PM: INFO: Homepage title verification passed.
+09/09/2024 02:59:13 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/09/2024 02:59:48 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/09/2024 02:59:49 PM: INFO: Step-2 : Project Detail
+09/09/2024 02:59:49 PM: INFO: Step-3 : Project Avatar or Project Color
+09/09/2024 02:59:49 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/09/2024 02:59:49 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/09/2024 02:59:49 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/09/2024 02:59:49 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/09/2024 02:59:49 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/09/2024 02:59:50 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/09/2024 02:59:50 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/09/2024 03:00:27 PM: ERROR: Project name verification testcase failed. Expected: Test Project a82cfa96, Found: Test Project A82cfa96
+09/09/2024 03:00:32 PM: INFO: ***** Testing Create Project using template with required fields only*****
+09/09/2024 03:00:38 PM: INFO: ***** Testing Create Task *****
+09/09/2024 03:00:46 PM: INFO: Testing Login with Valid Credentials
+09/09/2024 03:00:59 PM: INFO: Testing Login with Invalid Credentials
+09/09/2024 03:01:09 PM: INFO: Testing Homepage Title
