@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_CreateProject.py:103 ***** Testing Create Project using template with required fields only*****
+[32mINFO    [0m root:test_CreateProject.py:138 Project name verification testcase passed

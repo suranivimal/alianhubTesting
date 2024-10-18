@@ -1,0 +1,12 @@
+[32mINFO    [0m root:test_CreateProject.py:28 ***** Testing Create Project using blank project with required fields only*****
+[32mINFO    [0m root:test_CreateProject.py:49 Step-1 : Project Type - Blank Project or Use a Template
+[32mINFO    [0m root:test_CreateProject.py:55 Step-2 : Project Detail
+[32mINFO    [0m root:test_CreateProject.py:58 Step-3 : Project Avatar or Project Color
+[32mINFO    [0m root:test_CreateProject.py:61 Step-4 : Project Type - Public Project or Private Project
+[32mINFO    [0m root:test_CreateProject.py:64 Step-5 : Task Type - Add the type of tasks you need
+[32mINFO    [0m root:test_CreateProject.py:67 Step-6 : Project Status - Add the statuses for the project
+[32mINFO    [0m root:test_CreateProject.py:70 Step-7 : Task Status - Set up the statuses for tasks
+[32mINFO    [0m root:test_CreateProject.py:73 Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+[32mINFO    [0m root:test_CreateProject.py:78 Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+[32mINFO    [0m root:test_CreateProject.py:82 Step-10 : Project Summary - Details of the Project set up
+[32mINFO    [0m root:test_CreateProject.py:90 Project name verification testcase passed

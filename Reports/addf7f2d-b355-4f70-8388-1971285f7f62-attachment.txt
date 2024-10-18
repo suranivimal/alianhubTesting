@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_CreateTask.py:25 ***** Testing Create Task *****
+[32mINFO    [0m root:test_CreateTask.py:66 Task name verification passed.
