@@ -1,3 +1,5 @@
+import os
+
 import allure
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -68,6 +70,25 @@ def webdriver_wait_for_alert_is_present(driver, timeout=60):
 
 
 def capture_screenshot(driver, screenshot_name):
-    screenshot_path = f"C:/Users/Alian Testing/PycharmProjects/alianhubTesting/Screenshots/{screenshot_name}.png"
+    """
+    Captures a screenshot of the current browser window and saves it to the configured Screenshots directory.
+
+    :param driver: WebDriver instance
+    :param screenshot_name: Name to save the screenshot file
+    """
+    # Dynamically create the path for the screenshot
+    project_root = os.path.dirname(os.path.dirname(__file__))  # Get the root directory of the project
+    screenshot_dir = os.path.join(project_root, 'Screenshots')  # Define the Screenshots folder path
+
+    # Create the folder if it does not exist
+    if not os.path.exists(screenshot_dir):
+        os.makedirs(screenshot_dir)
+
+    # Construct the full path for the screenshot file
+    screenshot_path = os.path.join(screenshot_dir, f"{screenshot_name}.png")
+
+    # Save the screenshot
     driver.save_screenshot(screenshot_path)
-    allure.attach(driver.get_screenshot_as_png(), name=screenshot_name)
+
+    # Attach screenshot to Allure report
+    allure.attach(driver.get_screenshot_as_png(), name=screenshot_name, attachment_type=allure.attachment_type.PNG)

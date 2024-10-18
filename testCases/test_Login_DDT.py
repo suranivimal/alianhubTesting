@@ -1,15 +1,20 @@
+import configparser
+import os
+
 import pytest
 from pageObjects.LoginPage import LoginPage
 from pageObjects.DashBoard import Dashboard
-from utilities.readProperities import ReadConfig
+from utilities.readProperties import ReadConfig
 from utilities.customlogger import LogGen
 from utilities import XLUtils
 import time
 
 
-class Test_Login_Page_DDT:
-    baseUrl = ReadConfig.getApplicationUrl()
-    path = "C:\\Users\\Alian Testing\\PycharmProjects\\alianhubTesting\\TestData\\LoginData.xlsx"
+class TestLoginPageDDT:
+    baseUrl = ReadConfig.get_application_url()
+    path = os.path.join(os.path.dirname(__file__), '..', 'TestData', 'LoginData.xlsx')
+    config = configparser.ConfigParser()
+    config.read(path)
     logger = LogGen.loggen()
 
     @pytest.mark.regression
@@ -21,20 +26,20 @@ class Test_Login_Page_DDT:
         self.driver.maximize_window()
         self.lps = LoginPage(self.driver)
 
-        self.rows = XLUtils.getRowCount(self.path, 'Sheet1')
+        self.rows = XLUtils.get_row_count(self.path, 'Sheet1')
         print('Number of rows...', self.rows)
         lst_status = []
 
         for r in range(2, self.rows + 1):
-            self.user = XLUtils.readData(self.path, 'Sheet1', r, 1)
-            self.password = XLUtils.readData(self.path, 'Sheet1', r, 2)
-            self.exp = XLUtils.readData(self.path, 'Sheet1', r, 3)
+            self.user = XLUtils.read_data(self.path, 'Sheet1', r, 1)
+            self.password = XLUtils.read_data(self.path, 'Sheet1', r, 2)
+            self.exp = XLUtils.read_data(self.path, 'Sheet1', r, 3)
             time.sleep(30)
-            self.lps.setUserName(self.user)
+            self.lps.set_email_id(self.user)
             time.sleep(30)
-            self.lps.setPassword(self.password)
+            self.lps.set_password(self.password)
             time.sleep(30)
-            self.lps.clickOnLogin()
+            self.lps.click_on_login_button()
             print(f"User: {self.user}, Password: {self.password}, Expected: {self.exp}")
             time.sleep(15)
 
@@ -45,25 +50,25 @@ class Test_Login_Page_DDT:
                 if self.exp == 'Pass':
                     self.logger.info("**** Passed 1****")
                     self.dashboard_page = Dashboard(self.driver)
-                    self.dashboard_page.clickOnProfile()
+                    self.dashboard_page.click_on_profile()
                     self.logger.info("**** Profile ****")
                     self.driver.implicitly_wait(40)
-                    self.dashboard_page.clickOnLogout()
+                    self.dashboard_page.click_on_logout()
                     lst_status.append("Pass")
-                    XLUtils.writeData(self.path, 'Sheet1', r, 3, "Pass")
+                    XLUtils.write_data(self.path, 'Sheet1', r, 3, "Pass")
                 elif self.exp == 'Fail':
                     self.logger.info("**** Failed 1****")
                     lst_status.append("Fail")
-                    XLUtils.writeData(self.path, 'Sheet1', r, 3, "Fail")
+                    XLUtils.write_data(self.path, 'Sheet1', r, 3, "Fail")
             elif act_title1 != exp_title1:
                 if self.exp == 'Pass':
                     self.logger.info("**** Failed ****")
                     lst_status.append("Fail")
-                    XLUtils.writeData(self.path, 'Sheet1', r, 3, "Fail")
+                    XLUtils.write_data(self.path, 'Sheet1', r, 3, "Fail")
                 elif self.exp == 'Fail':
                     self.logger.info("**** Passed ****")
                     lst_status.append("Pass")
-                    XLUtils.writeData(self.path, 'Sheet1', r, 3, "Pass")
+                    XLUtils.write_data(self.path, 'Sheet1', r, 3, "Pass")
             print(lst_status)
 
         if "Fail" not in lst_status:

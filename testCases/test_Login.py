@@ -1,23 +1,37 @@
 import pytest
 import allure
 from pageObjects.LoginPage import LoginPage
-from utilities.readProperities import ReadConfig
+from utilities.login_manager import LoginManager
+from utilities.readProperties import ReadConfig
 from utilities.customlogger import LogGen
-from utilities.commom_utils import capture_screenshot
+from utilities.common_utils import capture_screenshot
 
 
-class Test_LoginPage:
-    baseUrl = ReadConfig.getApplicationUrl()
-    username = ReadConfig.getUserEmail()
-    password = ReadConfig.getUserPassword()
-    invalid_email = ReadConfig.getInvalidUserEmail()
-    invalid_password = ReadConfig.getInvalidPassword()
+class TestLoginPage:
+    """
+    This class contains test cases for the LoginPage of the application.
+
+    It includes tests for:
+       - Logging in with valid credentials
+       - Logging in with invalid credentials
+       - Verifying the home page title after a successful login
+    """
+    baseUrl = ReadConfig.get_application_url()
+    username = ReadConfig.get_user_email()
+    password = ReadConfig.get_user_password()
+    invalid_email = ReadConfig.get_invalid_user_email()
+    invalid_password = ReadConfig.get_invalid_password()
     logger = LogGen.loggen()
 
     @allure.epic("Alian Hub Login Test")
     @allure.feature("TC#01 - Alian Hub Positive Test")
     @pytest.mark.positive
     def test_login_with_valid_credentials(self, setup):
+        """
+        Test case for logging in with valid credentials.
+
+        It verifies that the user can log in successfully and the home page title is correct.
+        """
         self.logger.info("Testing Login with Valid Credentials")
         self.driver = setup
         self.driver.get(self.baseUrl)
@@ -25,12 +39,11 @@ class Test_LoginPage:
 
         try:
 
-            login_page = LoginPage(self.driver)
-            login_page.setUserName(self.username)
-            login_page.setPassword(self.password)
-            login_page.clickOnLogin()
+            # Login
+            login_manager = LoginManager(self.driver, self.username, self.password)
+            login_manager.login()
+            self.logger.info("Logged in successfully.")
 
-            login_page.wait_for_home_page()
             actual_title = self.driver.title
 
             assert actual_title == 'Alian Hub | Home', f"Expected title 'Alian Hub | Home' but got '{actual_title}'"
@@ -46,6 +59,11 @@ class Test_LoginPage:
     @allure.feature("TC#02 - Alian Hub Negative Test")
     @pytest.mark.negative
     def test_login_with_invalid_credentials(self, setup):
+        """
+        Test case for logging in with invalid credentials.
+
+        It verifies that an appropriate warning message is displayed for invalid credentials.
+        """
         self.logger.info("Testing Login with Invalid Credentials")
         self.driver = setup
         self.driver.get(self.baseUrl)
@@ -54,9 +72,9 @@ class Test_LoginPage:
         try:
 
             login_page = LoginPage(self.driver)
-            login_page.setUserName(self.invalid_email)
-            login_page.setPassword(self.invalid_password)
-            login_page.clickOnLogin()
+            login_page.set_email_id(self.invalid_email)
+            login_page.set_password(self.invalid_password)
+            login_page.click_on_login_button()
 
             expected_warning_message = "Invalid username or password."
             actual_warning_message = login_page.retrieve_warning_message()
@@ -76,6 +94,11 @@ class Test_LoginPage:
     @allure.feature("TC#03 - Alian Hub Positive Test")
     @pytest.mark.positive
     def test_home_page_title(self, setup):
+        """
+        Test case for verifying the home page title before login.
+
+        It ensures that the title of the login page is correct when initially loading the page.
+        """
         self.logger.info("Testing Homepage Title")
         self.driver = setup
         self.driver.get(self.baseUrl)

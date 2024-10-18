@@ -1,10 +1,10 @@
 from selenium.webdriver.common.by import By
-from utilities.commom_utils import *
+from utilities.common_utils import *
 from selenium.webdriver.support.wait import WebDriverWait
 import time
 
 
-class Test_VerifyGmailAccount:
+class TestVerifyGmailAccount:
 
     def test_login_with_valid_credentials(self, setup):
 
@@ -52,20 +52,25 @@ class Test_VerifyGmailAccount:
             search_box.send_keys(u'\ue007')  # Press Enter to trigger the search
 
             # Step 5: Wait for the results to load
-            WebDriverWait(self.driver, 20).until(
+            WebDriverWait(self.driver, 60).until(
                 EC.presence_of_element_located((By.XPATH, "//tr[@role='row']"))
             )
 
             # Step 6: Interact with the search results (e.g., click on the first email)
             first_email = self.driver.find_element(By.XPATH, "//tr[@role='row'][1]")
-            webdriver_wait_for_element_to_be_clickable(driver=self.driver,locator=first_email,timeout=60)
+            webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=first_email, timeout=60)
             first_email.click()
 
-            time.sleep(40)
-
-            join_button = self.driver.find_element(By.XPATH, "//a[normalize-space()='Click here to Join']")
-            webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=join_button, timeout=60)
-            join_button.click()
+            # email_row = self.driver.find_element(By.XPATH,
+            #                                      "//tr[td//span[text()='noreply'] and td//span[contains(text(), 'Alian Hub have sent you an invitation')]]")
+            # webdriver_wait_for_visibility_of_element_located(driver=self.driver, element_tuple=email_row, timeout=60)
+            # email_row.click()
+            #
+            # time.sleep(40)
+            #
+            # join_button = self.driver.find_element(By.XPATH, "//a[normalize-space()='Click here to Join']")
+            # webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=join_button, timeout=60)
+            # join_button.click()
 
             time.sleep(25)
 

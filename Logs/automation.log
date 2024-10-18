@@ -697,3 +697,105 @@ Stacktrace:
 09/09/2024 03:00:46 PM: INFO: Testing Login with Valid Credentials
 09/09/2024 03:00:59 PM: INFO: Testing Login with Invalid Credentials
 09/09/2024 03:01:09 PM: INFO: Testing Homepage Title
+09/09/2024 03:11:13 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/09/2024 03:11:24 PM: INFO: Successfully logged in.
+09/09/2024 03:11:35 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/09/2024 03:11:36 PM: INFO: Step-2 : Project Detail
+09/09/2024 03:11:36 PM: INFO: Generated project name: QA Test Project 0671131d, project key: PROJ-98F02221
+09/09/2024 03:11:37 PM: INFO: Step-3 : Project Avatar or Project Color
+09/09/2024 03:11:37 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/09/2024 03:11:37 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/09/2024 03:11:37 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/09/2024 03:11:37 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/09/2024 03:11:37 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/09/2024 03:11:37 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/09/2024 03:11:38 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/09/2024 03:12:19 PM: INFO: ***** Testing Create Project using template with required fields only *****
+09/09/2024 03:12:27 PM: INFO: Successfully logged in.
+09/09/2024 03:13:24 PM: INFO: Generated project name: QA Test Project E32b1be1, project key: PROJ-7FE37C2F
+09/09/2024 03:14:02 PM: INFO: Project name verification testcase passed
+09/09/2024 03:14:07 PM: INFO: ***** Testing Create Task *****
+09/09/2024 03:14:16 PM: INFO: Logged in successfully.
+09/09/2024 03:14:41 PM: INFO: Navigated to the Projects section.
+09/09/2024 03:14:43 PM: INFO: Selected project: Test Project
+09/09/2024 03:14:43 PM: INFO: Project page title verified.
+09/09/2024 03:14:47 PM: INFO: Task 'Task_7bb094' created successfully.
+09/09/2024 03:15:19 PM: INFO: Verified task name: Task_7bb094
+09/09/2024 03:15:25 PM: INFO: Testing Login with Valid Credentials
+09/09/2024 03:15:40 PM: INFO: Login with valid credentials passed.
+09/09/2024 03:15:45 PM: INFO: Testing Login with Invalid Credentials
+09/09/2024 03:15:50 PM: INFO: Login with invalid credentials passed.
+09/09/2024 03:15:54 PM: INFO: Testing Homepage Title
+09/09/2024 03:16:00 PM: INFO: Homepage title verification passed.
+09/10/2024 06:45:42 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/10/2024 06:46:48 PM: ERROR: An error occurred: Message: 
+
+09/10/2024 06:47:47 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/10/2024 06:47:57 PM: INFO: Successfully logged in.
+09/10/2024 06:48:01 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/10/2024 06:48:02 PM: INFO: Step-2 : Project Detail
+09/10/2024 06:48:02 PM: INFO: Generated project name: QA Test Project 1d9e5945, project key: PROJ-EBFC0354
+09/10/2024 06:48:03 PM: INFO: Step-3 : Project Avatar or Project Color
+09/10/2024 06:48:03 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/10/2024 06:48:03 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/10/2024 06:48:03 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/10/2024 06:48:03 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/10/2024 06:48:03 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/10/2024 06:48:03 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/10/2024 06:48:04 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/10/2024 06:58:22 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/10/2024 06:58:38 PM: INFO: Successfully logged in.
+09/10/2024 06:58:56 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/10/2024 06:58:57 PM: INFO: Step-2 : Project Detail
+09/10/2024 06:58:57 PM: INFO: Generated project name: QA Test Project 45839ebc, project key: PROJ-80A9E544
+09/10/2024 06:58:58 PM: INFO: Step-3 : Project Avatar or Project Color
+09/10/2024 06:58:58 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/10/2024 06:58:58 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/10/2024 06:58:58 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/10/2024 06:58:58 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/10/2024 06:58:58 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/10/2024 06:58:58 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/10/2024 06:58:59 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/10/2024 06:59:45 PM: INFO: ***** Testing Create Project using template with required fields only *****
+09/10/2024 06:59:53 PM: INFO: Successfully logged in.
+09/10/2024 07:01:01 PM: ERROR: An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65199B5D2+29090]
+	(No symbol) [0x00007FF65190E689]
+	(No symbol) [0x00007FF6517CB1CA]
+	(No symbol) [0x00007FF65181EFD7]
+	(No symbol) [0x00007FF65181F22C]
+	(No symbol) [0x00007FF6518697F7]
+	(No symbol) [0x00007FF65184672F]
+	(No symbol) [0x00007FF6518665D9]
+	(No symbol) [0x00007FF651846493]
+	(No symbol) [0x00007FF6518109B1]
+	(No symbol) [0x00007FF651811B11]
+	GetHandleVerifier [0x00007FF651CB8C5D+3295277]
+	GetHandleVerifier [0x00007FF651D04843+3605523]
+	GetHandleVerifier [0x00007FF651CFA707+3564247]
+	GetHandleVerifier [0x00007FF651A56EB6+797318]
+	(No symbol) [0x00007FF65191980F]
+	(No symbol) [0x00007FF6519153F4]
+	(No symbol) [0x00007FF651915580]
+	(No symbol) [0x00007FF651904A1F]
+	BaseThreadInitThunk [0x00007FFF9D747374+20]
+	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
+
+09/10/2024 07:22:23 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
+09/10/2024 07:22:40 PM: INFO: Successfully logged in.
+09/10/2024 07:22:41 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
+09/10/2024 07:22:42 PM: INFO: Step-2 : Project Detail
+09/10/2024 07:22:42 PM: INFO: Generated project name: QA Test Project 77f813d2, project key: PROJ-C58B0A51
+09/10/2024 07:22:43 PM: INFO: Step-3 : Project Avatar or Project Color
+09/10/2024 07:22:43 PM: INFO: Step-4 : Project Type - Public Project or Private Project
+09/10/2024 07:22:43 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
+09/10/2024 07:22:43 PM: INFO: Step-6 : Project Status - Add the statuses for the project
+09/10/2024 07:22:43 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
+09/10/2024 07:22:43 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
+09/10/2024 07:22:43 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
+09/10/2024 07:23:17 PM: INFO: Step-10 : Project Summary - Details of the Project set up
+09/10/2024 07:23:33 PM: INFO: ***** Testing Create Project using template with required fields only *****
+09/10/2024 07:23:42 PM: INFO: Successfully logged in.
+09/10/2024 07:24:09 PM: INFO: Generated project name: QA Test Project 46532fed, project key: PROJ-61E9FFAF
+09/10/2024 07:24:47 PM: INFO: Project name verification testcase passed

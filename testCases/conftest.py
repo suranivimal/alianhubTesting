@@ -1,4 +1,3 @@
-import os
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -20,8 +19,6 @@ chrome_options.add_experimental_option(
 
 @pytest.fixture(scope="function")
 def setup(browser):
-    driver = None
-
     if browser == 'chrome':
         driver = webdriver.Chrome(options=chrome_options)
         print("Launching chrome browser.........")
@@ -37,12 +34,13 @@ def setup(browser):
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", action="store", default="chrome", help="Type in browser name e.g. chrome OR firefox")
+    parser.addoption("--test-browser", action="store", default="chrome",
+                     help="Type in browser name e.g. chrome OR firefox")
 
 
 @pytest.fixture(scope="function")
 def browser(request):
-    return request.config.getoption("--browser")
+    return request.config.getoption("--test-browser")
 
 
 # Pytest HTML Report
