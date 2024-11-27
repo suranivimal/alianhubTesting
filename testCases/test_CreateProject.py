@@ -171,7 +171,7 @@ class TestCreateProject:
             allure.attach(self.driver.get_screenshot_as_png(), name='Create Project Error')
             assert False
 
-    @allure.epic("Alian Hub Create Project Using Blank Project")
+    @allure.epic("Alian Hub Create Project Using Blank Project with all fields")
     @allure.feature("TC#03 - Alian Hub Positive Test")
     @pytest.mark.positive
     def test_create_project_blank_project_with_all_field(self, setup):
@@ -210,7 +210,6 @@ class TestCreateProject:
             create_project.select_category()
             create_project.calendar_component()
             create_project.click_on_lead_dropdown()
-
             create_project.select_assignee()
             create_project.close_assignee_sidebar()
             create_project.click_on_next_button()
@@ -219,14 +218,12 @@ class TestCreateProject:
             create_project.project_image_upload()
             create_project.click_on_next_button()
 
-            # self.logger.info("Step-4: Project Type - Public Project or Private Project")
+            self.logger.info("Step-4: Project Type - Public Project or Private Project")
             create_project.select_project_type()
             create_project.click_on_next_button()
 
-            create_project.select_task_type_template()
-            create_project.click_on_next_button()
-
             self.logger.info("Step-5: Task Type - Add the type of tasks you need")
+            create_project.select_task_type_template()
             create_project.click_on_next_button()
 
             self.logger.info("Step-6: Project Status - Add the statuses for the project")
@@ -237,15 +234,21 @@ class TestCreateProject:
 
             self.logger.info(
                 "Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI")
+            create_project.click_on_enable_apps()
             create_project.click_on_next_button()
 
             self.logger.info(
-                "Step-9: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table")
+                "Step-9: Custom Field")
+            create_project.click_on_next_button()
+
+            self.logger.info(
+                "Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table")
             # create_project.click_on_view_radio_button()
             create_project.click_on_next_button()
 
             self.logger.info("Step-10: Project Summary - Details of the Project setup")
             create_project.click_on_create_project()
+            time.sleep(20)
             toast_message = create_project.verify_project_toast_message()
             self.logger.info(f"Toast message: {toast_message}")
             capture_screenshot(self.driver, "project_created_successfully")

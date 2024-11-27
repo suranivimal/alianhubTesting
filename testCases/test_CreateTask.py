@@ -39,7 +39,8 @@ class TestCreateTask:
 
             # Navigate to Project and Task sections
             create_project = CreateProject(self.driver)
-            create_project.wait_for_project_list_title()
+            create_project.wait_for_project_list_fav()
+
             self.logger.info("Navigated to the Projects section.")
 
             create_project.select_created_project()

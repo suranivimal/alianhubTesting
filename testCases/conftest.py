@@ -1,6 +1,8 @@
 import pytest
+from _pytest.config import hookimpl
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
 
 # Configure Chrome options globally
 chrome_options = Options()
@@ -45,7 +47,7 @@ def browser(request):
 
 # Pytest HTML Report
 # Hook for adding environment info to HTML report
-@pytest.mark.optionalhook
+@hookimpl(optionalhook=True)
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
     metadata.pop("Plugin", None)

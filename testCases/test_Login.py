@@ -107,7 +107,7 @@ class TestLoginPage:
         try:
             actual_title = self.driver.title
 
-            assert actual_title == 'Alian Hub | Login', f"Expected title 'Alian Hub | Login' but got '{actual_title}'"
+            assert actual_title == 'Alian Hub | Login', f"Expected title 'Alian Hub | QA | Login' but got '{actual_title}'"
             allure.attach(self.driver.get_screenshot_as_png(), name='test_home_page_title_passed')
             self.logger.info("Homepage title verification passed.")
         except Exception as e:

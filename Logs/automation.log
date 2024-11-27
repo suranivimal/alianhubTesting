@@ -1,801 +1,226 @@
-08/29/2024 11:41:14 AM: INFO: Testing Login with Valid Credentials
-08/29/2024 11:41:28 AM: INFO: Testing Login with Invalid Credentials
-08/29/2024 11:41:38 AM: INFO: Testing Homepage Title
-08/29/2024 11:42:10 AM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 11:52:41 AM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 11:56:52 AM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 11:57:13 AM: INFO: **** failed 1****
-08/29/2024 11:59:59 AM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 12:00:19 PM: INFO: **** failed 1****
-08/29/2024 12:14:59 PM: INFO: ***** Testing Create Project *****
-08/29/2024 12:22:44 PM: ERROR: Project name verification failed. Expected: Test Project dff2797a, Found: Test Project Dff2797a
-08/29/2024 01:40:48 PM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 01:46:37 PM: INFO: ***** Testing Create Project *****
-08/29/2024 01:53:46 PM: ERROR: Project name verification failed. Expected: Test Project bf801f1f, Found: Test Project Dff2797a
-08/29/2024 02:47:08 PM: INFO: Testing Login with Valid Credentials
-08/29/2024 02:47:18 PM: ERROR: Login with valid credentials failed.
-08/29/2024 02:47:22 PM: INFO: Testing Login with Invalid Credentials
-08/29/2024 02:47:32 PM: INFO: Testing Homepage Title
-08/29/2024 02:51:24 PM: INFO: Testing Login with Valid Credentials
-08/29/2024 02:51:34 PM: ERROR: Login with valid credentials failed.
-08/29/2024 02:51:38 PM: INFO: Testing Login with Invalid Credentials
-08/29/2024 02:51:47 PM: INFO: Testing Homepage Title
-08/29/2024 02:52:38 PM: INFO: Testing Login with Valid Credentials
-08/29/2024 02:52:55 PM: INFO: Testing Login with Invalid Credentials
-08/29/2024 02:53:04 PM: INFO: Testing Homepage Title
-08/29/2024 02:53:39 PM: INFO: ***** Testing Create Task *****
-08/29/2024 03:02:49 PM: INFO: ***** Testing Create Task *****
-08/29/2024 03:25:14 PM: INFO: ***** Testing Create Task *****
-08/29/2024 03:25:57 PM: INFO: ***** Testing Create Task *****
-08/29/2024 03:27:22 PM: INFO: ***** Testing Create Task *****
-08/29/2024 03:32:44 PM: INFO: ***** Testing Create Task *****
-08/29/2024 03:44:17 PM: INFO: ***** Testing Create Task *****
-08/29/2024 06:48:47 PM: INFO: ***** Testing Create Project *****
-08/29/2024 06:49:44 PM: INFO: ***** Testing Create Project *****
-08/29/2024 06:57:08 PM: INFO: Project name verification passed.
-08/29/2024 06:57:28 PM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 06:58:35 PM: INFO: ******* DDT Login test passed **********
-08/29/2024 06:58:35 PM: INFO: ******* End of Login DDT Test **********
-08/29/2024 06:58:35 PM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/29/2024 07:04:56 PM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 07:07:01 PM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 07:08:57 PM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 07:09:41 PM: INFO: ******* Starting Login DDT Test **********
-08/29/2024 07:10:46 PM: INFO: ******* DDT Login test passed **********
-08/29/2024 07:10:47 PM: INFO: ******* End of Login DDT Test **********
-08/29/2024 07:10:47 PM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 10:19:20 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:20:27 AM: INFO: ******* DDT Login test passed **********
-08/30/2024 10:20:27 AM: INFO: ******* End of Login DDT Test **********
-08/30/2024 10:20:27 AM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 10:25:10 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:26:17 AM: INFO: ******* DDT Login test passed **********
-08/30/2024 10:26:17 AM: INFO: ******* End of Login DDT Test **********
-08/30/2024 10:26:17 AM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 10:30:47 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:31:17 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:31:17 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: owner@example.com
-08/30/2024 10:31:17 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Abc@1234
-08/30/2024 10:31:17 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 10:31:32 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:31:32 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:31:32 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 10:31:47 AM: INFO: Read data from Sheet1 - Row: 4, Column: 1 - Value: owner@example.com
-08/30/2024 10:31:47 AM: INFO: Read data from Sheet1 - Row: 4, Column: 2 - Value: Admin@559199
-08/30/2024 10:31:47 AM: INFO: Read data from Sheet1 - Row: 4, Column: 3 - Value: None
-08/30/2024 10:32:02 AM: INFO: Read data from Sheet1 - Row: 5, Column: 1 - Value: owner@example.com
-08/30/2024 10:32:02 AM: INFO: Read data from Sheet1 - Row: 5, Column: 2 - Value: Admin@559
-08/30/2024 10:32:02 AM: INFO: Read data from Sheet1 - Row: 5, Column: 3 - Value: None
-08/30/2024 10:32:18 AM: INFO: ******* DDT Login test passed **********
-08/30/2024 10:32:18 AM: INFO: ******* End of Login DDT Test **********
-08/30/2024 10:32:18 AM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 10:34:13 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:34:22 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:34:22 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: owner@example.com
-08/30/2024 10:34:23 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Abc@1234
-08/30/2024 10:34:23 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Fail
-08/30/2024 10:34:38 AM: INFO: **** passed ****
-08/30/2024 10:34:38 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:34:38 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:34:38 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: Fail
-08/30/2024 10:34:53 AM: INFO: **** passed ****
-08/30/2024 10:34:53 AM: INFO: Read data from Sheet1 - Row: 4, Column: 1 - Value: owner@example.com
-08/30/2024 10:34:53 AM: INFO: Read data from Sheet1 - Row: 4, Column: 2 - Value: Admin@559199
-08/30/2024 10:34:53 AM: INFO: Read data from Sheet1 - Row: 4, Column: 3 - Value: Fail
-08/30/2024 10:35:08 AM: INFO: **** passed ****
-08/30/2024 10:35:08 AM: INFO: Read data from Sheet1 - Row: 5, Column: 1 - Value: owner@example.com
-08/30/2024 10:35:08 AM: INFO: Read data from Sheet1 - Row: 5, Column: 2 - Value: Admin@559
-08/30/2024 10:35:08 AM: INFO: Read data from Sheet1 - Row: 5, Column: 3 - Value: Fail
-08/30/2024 10:35:24 AM: INFO: **** passed ****
-08/30/2024 10:35:24 AM: INFO: ******* DDT Login test passed **********
-08/30/2024 10:35:24 AM: INFO: ******* End of Login DDT Test **********
-08/30/2024 10:35:24 AM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 10:36:08 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:36:13 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:36:13 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: owner@example.com
-08/30/2024 10:36:13 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Abc@1234
-08/30/2024 10:36:13 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
-08/30/2024 10:36:28 AM: INFO: **** failed ****
-08/30/2024 10:36:28 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:36:28 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:36:28 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: Fail
-08/30/2024 10:36:43 AM: INFO: **** passed ****
-08/30/2024 10:36:43 AM: INFO: Read data from Sheet1 - Row: 4, Column: 1 - Value: owner@example.com
-08/30/2024 10:36:43 AM: INFO: Read data from Sheet1 - Row: 4, Column: 2 - Value: Admin@559199
-08/30/2024 10:36:43 AM: INFO: Read data from Sheet1 - Row: 4, Column: 3 - Value: Fail
-08/30/2024 10:36:59 AM: INFO: **** passed ****
-08/30/2024 10:36:59 AM: INFO: Read data from Sheet1 - Row: 5, Column: 1 - Value: owner@example.com
-08/30/2024 10:36:59 AM: INFO: Read data from Sheet1 - Row: 5, Column: 2 - Value: Admin@559
-08/30/2024 10:36:59 AM: INFO: Read data from Sheet1 - Row: 5, Column: 3 - Value: Fail
-08/30/2024 10:37:14 AM: INFO: **** passed ****
-08/30/2024 10:37:14 AM: ERROR: ******* DDT Login test failed **********
-08/30/2024 10:39:01 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:39:06 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:39:06 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 10:39:06 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 10:39:06 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
-08/30/2024 10:39:21 AM: INFO: **** Passed 1****
-08/30/2024 10:39:21 AM: INFO: **** Profile ****
-08/30/2024 10:39:21 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:39:21 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:39:21 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: Fail
-08/30/2024 10:39:37 AM: INFO: **** passed ****
-08/30/2024 10:39:37 AM: INFO: Read data from Sheet1 - Row: 4, Column: 1 - Value: owner@example.com
-08/30/2024 10:39:37 AM: INFO: Read data from Sheet1 - Row: 4, Column: 2 - Value: Admin@559199
-08/30/2024 10:39:37 AM: INFO: Read data from Sheet1 - Row: 4, Column: 3 - Value: Fail
-08/30/2024 10:39:52 AM: INFO: **** passed ****
-08/30/2024 10:39:52 AM: INFO: Read data from Sheet1 - Row: 5, Column: 1 - Value: owner@example.com
-08/30/2024 10:39:52 AM: INFO: Read data from Sheet1 - Row: 5, Column: 2 - Value: Admin@559
-08/30/2024 10:39:52 AM: INFO: Read data from Sheet1 - Row: 5, Column: 3 - Value: Fail
-08/30/2024 10:40:07 AM: INFO: **** passed ****
-08/30/2024 10:40:07 AM: INFO: ******* DDT Login test passed **********
-08/30/2024 10:40:07 AM: INFO: ******* End of Login DDT Test **********
-08/30/2024 10:40:07 AM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 10:45:51 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:45:57 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:45:57 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 10:45:57 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 10:45:57 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 10:46:12 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:46:12 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:46:12 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 10:46:57 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:47:02 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:47:02 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 10:47:02 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 10:47:02 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 10:47:17 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:47:18 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:47:18 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 10:50:06 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 10:50:11 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 10:50:11 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 10:50:11 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 10:50:11 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 10:50:27 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: owner@example.com
-08/30/2024 10:50:27 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 10:50:27 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 11:15:56 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 11:16:01 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 11:16:01 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:16:01 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 11:16:01 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 11:16:26 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:16:26 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 11:16:26 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 11:22:35 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 11:22:44 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 11:22:44 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:22:44 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 11:22:44 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 11:22:59 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:22:59 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 11:22:59 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 11:26:12 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 11:26:17 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 11:26:17 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:26:17 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 11:26:17 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 11:26:42 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:26:42 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 11:26:42 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 11:28:46 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 11:28:51 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 11:28:51 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:28:51 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 11:28:51 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 11:30:37 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:30:37 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 11:30:37 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 11:32:51 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 11:32:56 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 11:32:56 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:32:56 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 11:32:56 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: None
-08/30/2024 11:34:41 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:34:41 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 11:34:41 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: None
-08/30/2024 11:38:03 AM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 11:38:08 AM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 11:38:08 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:38:08 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 11:38:08 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
-08/30/2024 11:39:54 AM: INFO: **** Passed 1****
-08/30/2024 11:39:54 AM: INFO: **** Profile ****
-08/30/2024 11:39:54 AM: INFO: Written data to Sheet1 - Row: 2, Column: 3 - Data: Pass
-08/30/2024 11:39:54 AM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 11:39:54 AM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-08/30/2024 11:39:54 AM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: Fail
-08/30/2024 11:41:40 AM: INFO: **** Passed ****
-08/30/2024 11:41:40 AM: INFO: Written data to Sheet1 - Row: 3, Column: 3 - Data: Pass
-08/30/2024 11:41:40 AM: INFO: Read data from Sheet1 - Row: 4, Column: 1 - Value: aliantest236+2220@gmail.com
-08/30/2024 11:41:40 AM: INFO: Read data from Sheet1 - Row: 4, Column: 2 - Value: Qa@223133
-08/30/2024 11:41:40 AM: INFO: Read data from Sheet1 - Row: 4, Column: 3 - Value: Pass
-08/30/2024 11:43:25 AM: INFO: **** Passed 1****
-08/30/2024 11:43:25 AM: INFO: **** Profile ****
-08/30/2024 11:43:25 AM: INFO: Written data to Sheet1 - Row: 4, Column: 3 - Data: Pass
-08/30/2024 11:43:25 AM: INFO: Read data from Sheet1 - Row: 5, Column: 1 - Value: aliantesting@gmail.com
-08/30/2024 11:43:25 AM: INFO: Read data from Sheet1 - Row: 5, Column: 2 - Value: Qa@223133
-08/30/2024 11:43:25 AM: INFO: Read data from Sheet1 - Row: 5, Column: 3 - Value: Fail
-08/30/2024 11:45:11 AM: INFO: **** Passed ****
-08/30/2024 11:45:11 AM: INFO: Written data to Sheet1 - Row: 5, Column: 3 - Data: Pass
-08/30/2024 11:45:11 AM: INFO: ******* DDT Login test passed **********
-08/30/2024 11:45:11 AM: INFO: ******* End of Login DDT Test **********
-08/30/2024 11:45:11 AM: INFO: **************** Completed  TC_Login_Page_DDT *************
-08/30/2024 11:46:57 AM: INFO: Testing Login with Valid Credentials
-08/30/2024 11:47:30 AM: INFO: Testing Login with Invalid Credentials
-08/30/2024 11:47:38 AM: INFO: Testing Homepage Title
-08/30/2024 11:48:16 AM: INFO: ***** Testing Create Task *****
-08/30/2024 11:58:53 AM: INFO: ***** Testing Create Task *****
-08/30/2024 11:59:54 AM: INFO: ***** Testing Create Task *****
-08/30/2024 02:32:45 PM: INFO: Testing Login with Valid Credentials
-08/30/2024 02:33:00 PM: INFO: Testing Login with Invalid Credentials
-08/30/2024 02:33:16 PM: INFO: Testing Homepage Title
-08/30/2024 02:33:50 PM: INFO: ***** Testing Create Project *****
-08/30/2024 02:37:45 PM: INFO: ***** Testing Create Project *****
-08/30/2024 02:38:18 PM: INFO: ***** Testing Create Task *****
-08/30/2024 02:39:27 PM: INFO: Testing Login with Valid Credentials
-08/30/2024 02:39:41 PM: INFO: Testing Login with Invalid Credentials
-08/30/2024 02:39:50 PM: INFO: Testing Homepage Title
-08/30/2024 02:39:59 PM: INFO: ******* Starting Login DDT Test **********
-08/30/2024 02:40:05 PM: INFO: Total number of rows in 'Sheet1': 5
-08/30/2024 02:40:05 PM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-08/30/2024 02:40:05 PM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-08/30/2024 02:40:05 PM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
-08/30/2024 02:41:50 PM: INFO: **** Passed 1****
-09/02/2024 11:35:21 AM: INFO: Testing Login with Valid Credentials
-09/02/2024 11:35:37 AM: INFO: Testing Login with Invalid Credentials
-09/02/2024 11:35:46 AM: INFO: Testing Homepage Title
-09/02/2024 11:36:33 AM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 11:37:48 AM: INFO: ***** Testing Create Task *****
-09/02/2024 11:50:20 AM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 11:56:17 AM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 11:57:31 AM: INFO: ***** Testing Create Task *****
-09/02/2024 11:58:49 AM: INFO: Testing Login with Valid Credentials
-09/02/2024 11:59:03 AM: INFO: Testing Login with Invalid Credentials
-09/02/2024 11:59:12 AM: INFO: Testing Homepage Title
-09/02/2024 11:59:20 AM: INFO: ******* Starting Login DDT Test **********
-09/02/2024 11:59:24 AM: INFO: Total number of rows in 'Sheet1': 5
-09/02/2024 11:59:24 AM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-09/02/2024 11:59:24 AM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-09/02/2024 11:59:24 AM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
-09/02/2024 12:01:10 PM: INFO: **** Passed 1****
-09/02/2024 01:55:51 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 01:57:58 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 01:59:05 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:00:01 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:00:33 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/02/2024 02:00:35 PM: INFO: Step-2 : Project Detail
-09/02/2024 02:00:35 PM: INFO: Step-3 : Project Avatar or Project Color
-09/02/2024 02:00:35 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/02/2024 02:00:35 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/02/2024 02:00:35 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/02/2024 02:00:35 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/02/2024 02:00:35 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/02/2024 02:00:35 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/02/2024 02:00:56 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/02/2024 02:02:02 PM: ERROR: Project name verification testcase failed. Expected: Project babeb76a, Found: Project Babeb76a
-09/02/2024 02:06:15 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:07:42 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/02/2024 02:07:43 PM: INFO: Step-2 : Project Detail
-09/02/2024 02:07:43 PM: INFO: Step-3 : Project Avatar or Project Color
-09/02/2024 02:07:43 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/02/2024 02:07:43 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/02/2024 02:07:43 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/02/2024 02:07:43 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/02/2024 02:07:43 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/02/2024 02:07:43 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/02/2024 02:08:13 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/02/2024 02:08:50 PM: ERROR: Project name verification testcase failed. Expected: Project 83aff197, Found: Project Babeb76a
-09/02/2024 02:10:09 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:10:43 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/02/2024 02:10:44 PM: INFO: Step-2 : Project Detail
-09/02/2024 02:10:44 PM: INFO: Step-3 : Project Avatar or Project Color
-09/02/2024 02:10:44 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/02/2024 02:10:44 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/02/2024 02:10:44 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/02/2024 02:10:44 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/02/2024 02:10:44 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/02/2024 02:10:45 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/02/2024 02:11:35 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/02/2024 02:13:01 PM: INFO: Project name verification testcase passed
-09/02/2024 02:14:58 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:15:31 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/02/2024 02:15:32 PM: INFO: Step-2 : Project Detail
-09/02/2024 02:15:32 PM: INFO: Step-3 : Project Avatar or Project Color
-09/02/2024 02:15:32 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/02/2024 02:15:32 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/02/2024 02:15:32 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/02/2024 02:15:32 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/02/2024 02:15:32 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/02/2024 02:15:32 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/02/2024 02:16:22 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/02/2024 02:17:32 PM: INFO: Project name verification testcase passed
-09/02/2024 02:17:36 PM: INFO: ***** Testing Create Task *****
-09/02/2024 02:18:52 PM: INFO: Testing Login with Valid Credentials
-09/02/2024 02:19:06 PM: INFO: Testing Login with Invalid Credentials
-09/02/2024 02:19:15 PM: INFO: Testing Homepage Title
-09/02/2024 02:19:24 PM: INFO: ******* Starting Login DDT Test **********
-09/02/2024 02:19:37 PM: INFO: Total number of rows in 'Sheet1': 5
-09/02/2024 02:19:37 PM: INFO: Read data from Sheet1 - Row: 2, Column: 1 - Value: aliantesting12+901@gmail.com
-09/02/2024 02:19:37 PM: INFO: Read data from Sheet1 - Row: 2, Column: 2 - Value: Qa@223133
-09/02/2024 02:19:37 PM: INFO: Read data from Sheet1 - Row: 2, Column: 3 - Value: Pass
-09/02/2024 02:21:22 PM: INFO: **** Failed ****
-09/02/2024 02:21:22 PM: INFO: Written data to Sheet1 - Row: 2, Column: 3 - Data: Fail
-09/02/2024 02:21:22 PM: INFO: Read data from Sheet1 - Row: 3, Column: 1 - Value: aliantesting12+901@gmail.com
-09/02/2024 02:21:22 PM: INFO: Read data from Sheet1 - Row: 3, Column: 2 - Value: Admin@559
-09/02/2024 02:21:22 PM: INFO: Read data from Sheet1 - Row: 3, Column: 3 - Value: Pass
-09/02/2024 02:23:08 PM: INFO: **** Failed ****
-09/02/2024 02:23:08 PM: INFO: Written data to Sheet1 - Row: 3, Column: 3 - Data: Fail
-09/02/2024 02:23:08 PM: INFO: Read data from Sheet1 - Row: 4, Column: 1 - Value: aliantest236+2220@gmail.com
-09/02/2024 02:23:08 PM: INFO: Read data from Sheet1 - Row: 4, Column: 2 - Value: Qa@223133
-09/02/2024 02:23:08 PM: INFO: Read data from Sheet1 - Row: 4, Column: 3 - Value: Pass
-09/02/2024 02:31:33 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:31:41 PM: INFO: ***** Testing Create Task *****
-09/02/2024 02:31:46 PM: INFO: Testing Login with Valid Credentials
-09/02/2024 02:31:50 PM: INFO: Testing Login with Invalid Credentials
-09/02/2024 02:31:54 PM: INFO: Testing Homepage Title
-09/02/2024 02:32:34 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:33:06 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/02/2024 02:33:08 PM: INFO: Step-2 : Project Detail
-09/02/2024 02:33:08 PM: INFO: Step-3 : Project Avatar or Project Color
-09/02/2024 02:33:08 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/02/2024 02:33:08 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/02/2024 02:33:08 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/02/2024 02:33:08 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/02/2024 02:33:09 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/02/2024 02:33:09 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/02/2024 02:33:49 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/02/2024 02:35:11 PM: ERROR: Project name verification testcase failed. Expected: Project fac14f69, Found: Project Fac14f69
-09/02/2024 02:41:24 PM: INFO: ***** Testing Create Project with required fields only*****
-09/02/2024 02:42:24 PM: INFO: ***** Testing Create Task *****
-09/02/2024 02:42:58 PM: INFO: Testing Login with Valid Credentials
-09/02/2024 02:43:14 PM: INFO: Testing Login with Invalid Credentials
-09/02/2024 02:43:24 PM: INFO: Testing Homepage Title
-09/03/2024 01:43:20 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 02:48:30 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 02:49:08 PM: ERROR: An exception occurred: Message: element click intercepted: Element <span class="font-size-18 font-weight-700 blue">...</span> is not clickable at point (1386, 68). Other element would receive the click: <body class="driver-active driver-fade">...</body>
-  (Session info: chrome=128.0.6613.119)
+11/27/2024 05:46:56 PM: INFO: ***** Testing Create Project using blank project with required fields only *****
+11/27/2024 05:47:02 PM: INFO: Test Case 1
+11/27/2024 05:47:03 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 05:47:03 PM: INFO: Entered password.
+11/27/2024 05:47:03 PM: INFO: Clicked on Login button.
+11/27/2024 05:47:05 PM: INFO: Home page title verified.
+11/27/2024 05:47:05 PM: INFO: Logged in successfully.
+11/27/2024 05:47:10 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 05:47:11 PM: INFO: Step-2: Project Detail
+11/27/2024 05:47:11 PM: INFO: Generated project name: Project Test Ca4fac74, project key: PROJ-B4B5A140
+11/27/2024 05:47:12 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 05:47:12 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 05:47:12 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 05:47:12 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/27/2024 05:47:13 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/27/2024 05:47:13 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/27/2024 05:47:13 PM: INFO: Step-9: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/27/2024 05:47:13 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/27/2024 05:47:15 PM: INFO: Toast message: Project data has been added successfully
+11/27/2024 06:09:54 PM: INFO: ***** Testing Create Project using blank project with required fields only *****
+11/27/2024 06:10:00 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:10:01 PM: INFO: Entered password.
+11/27/2024 06:10:01 PM: INFO: Clicked on Login button.
+11/27/2024 06:10:10 PM: INFO: Home page title verified.
+11/27/2024 06:10:10 PM: INFO: Logged in successfully.
+11/27/2024 06:10:31 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 06:10:31 PM: INFO: Step-2: Project Detail
+11/27/2024 06:10:31 PM: INFO: Generated project name: Project Test 6f8317a6, project key: PROJ-30266AE5
+11/27/2024 06:10:32 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 06:10:32 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 06:10:33 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 06:10:33 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/27/2024 06:10:33 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/27/2024 06:10:33 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/27/2024 06:10:33 PM: INFO: Step-9: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/27/2024 06:10:33 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/27/2024 06:10:35 PM: INFO: Toast message: Project data has been added successfully
+11/27/2024 06:11:05 PM: INFO: ***** Testing Create Project using template with required fields only *****
+11/27/2024 06:11:11 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:11:11 PM: INFO: Entered password.
+11/27/2024 06:11:11 PM: INFO: Clicked on Login button.
+11/27/2024 06:11:13 PM: INFO: Home page title verified.
+11/27/2024 06:11:13 PM: INFO: Logged in successfully.
+11/27/2024 06:11:38 PM: INFO: Generated project name: Project Test 9458999a, project key: PROJ-13D88274
+11/27/2024 06:12:07 PM: INFO: Toast message: Project data has been added successfully
+11/27/2024 06:12:32 PM: INFO: Project name verification testcase passed
+11/27/2024 06:12:36 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/27/2024 06:12:42 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:12:42 PM: INFO: Entered password.
+11/27/2024 06:12:42 PM: INFO: Clicked on Login button.
+11/27/2024 06:12:44 PM: INFO: Home page title verified.
+11/27/2024 06:12:44 PM: INFO: Logged in successfully.
+11/27/2024 06:12:49 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 06:12:50 PM: INFO: Step-2: Project Detail
+11/27/2024 06:12:50 PM: INFO: Generated project name: Project Test D8c57d22, project key: PROJ-7C480C87
+11/27/2024 06:12:52 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 06:12:55 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 06:12:55 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 06:12:58 PM: ERROR: An error occurred: Message: element click intercepted: Element <span data-v-92031580="" class="taskInnerData">...</span> is not clickable at point (1682, 329). Other element would receive the click: <div data-v-35ef1933="" class="bg-white sidebar_item_main hover-bg-blue hover-white cursor-pointer d-flex align-items-center justify-content-between mobile-listuser">...</div>
+  (Session info: chrome=131.0.6778.86)
 Stacktrace:
-	GetHandleVerifier [0x00007FF77754B5D2+29090]
-	(No symbol) [0x00007FF7774BE689]
-	(No symbol) [0x00007FF77737B1CA]
-	(No symbol) [0x00007FF7773D6C0E]
-	(No symbol) [0x00007FF7773D4682]
-	(No symbol) [0x00007FF7773D1B9B]
-	(No symbol) [0x00007FF7773D0DB5]
-	(No symbol) [0x00007FF7773C2D61]
-	(No symbol) [0x00007FF7773F66EA]
-	(No symbol) [0x00007FF7773C26A6]
-	(No symbol) [0x00007FF7773F6900]
-	(No symbol) [0x00007FF7774165D9]
-	(No symbol) [0x00007FF7773F6493]
-	(No symbol) [0x00007FF7773C09B1]
-	(No symbol) [0x00007FF7773C1B11]
-	GetHandleVerifier [0x00007FF777868C5D+3295277]
-	GetHandleVerifier [0x00007FF7778B4843+3605523]
-	GetHandleVerifier [0x00007FF7778AA707+3564247]
-	GetHandleVerifier [0x00007FF777606EB6+797318]
-	(No symbol) [0x00007FF7774C980F]
-	(No symbol) [0x00007FF7774C53F4]
-	(No symbol) [0x00007FF7774C5580]
-	(No symbol) [0x00007FF7774B4A1F]
-	BaseThreadInitThunk [0x00007FFF9D747374+20]
-	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
+	GetHandleVerifier [0x00007FF63F666CB5+28821]
+	(No symbol) [0x00007FF63F5D3840]
+	(No symbol) [0x00007FF63F47578A]
+	(No symbol) [0x00007FF63F4D0E8E]
+	(No symbol) [0x00007FF63F4CE92C]
+	(No symbol) [0x00007FF63F4CBAF6]
+	(No symbol) [0x00007FF63F4CAA51]
+	(No symbol) [0x00007FF63F4BCBA0]
+	(No symbol) [0x00007FF63F4EF2FA]
+	(No symbol) [0x00007FF63F4BC3F6]
+	(No symbol) [0x00007FF63F4EF510]
+	(No symbol) [0x00007FF63F50F412]
+	(No symbol) [0x00007FF63F4EF0A3]
+	(No symbol) [0x00007FF63F4BA778]
+	(No symbol) [0x00007FF63F4BB8E1]
+	GetHandleVerifier [0x00007FF63F99FCAD+3408013]
+	GetHandleVerifier [0x00007FF63F9B741F+3504127]
+	GetHandleVerifier [0x00007FF63F9AB5FD+3455453]
+	GetHandleVerifier [0x00007FF63F72BDBB+835995]
+	(No symbol) [0x00007FF63F5DEB5F]
+	(No symbol) [0x00007FF63F5DA814]
+	(No symbol) [0x00007FF63F5DA9AD]
+	(No symbol) [0x00007FF63F5CA199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
 
-09/04/2024 02:49:13 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/04/2024 02:49:29 PM: ERROR: An exception occurred: Message: element click intercepted: Element <button type="button">...</button> is not clickable at point (1690, 216). Other element would receive the click: <body class="driver-active driver-fade">...</body>
-  (Session info: chrome=128.0.6613.119)
+11/27/2024 06:23:06 PM: INFO: ***** Testing Create Project using blank project with required fields only *****
+11/27/2024 06:23:12 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:23:12 PM: INFO: Entered password.
+11/27/2024 06:23:12 PM: INFO: Clicked on Login button.
+11/27/2024 06:23:14 PM: INFO: Home page title verified.
+11/27/2024 06:23:14 PM: INFO: Logged in successfully.
+11/27/2024 06:23:18 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 06:23:19 PM: INFO: Step-2: Project Detail
+11/27/2024 06:23:19 PM: INFO: Generated project name: Project Test 75965afb, project key: PROJ-E0D9F29D
+11/27/2024 06:23:20 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 06:23:20 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 06:23:20 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 06:23:20 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/27/2024 06:23:20 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/27/2024 06:23:21 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/27/2024 06:23:21 PM: INFO: Step-9: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/27/2024 06:23:21 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/27/2024 06:23:24 PM: INFO: Toast message: Project data has been added successfully
+11/27/2024 06:23:29 PM: ERROR: An error occurred: Project name mismatch. Expected: Project Test 75965afb, Found: Project Test 9458999a
+assert 'Project Test 9458999a' == 'Project Test 75965afb'
+  
+  - Project Test 75965afb
+  ?              ^  ^^ --
+  + Project Test 9458999a
+  ?              ^^ + ^^
+11/27/2024 06:23:33 PM: INFO: ***** Testing Create Project using template with required fields only *****
+11/27/2024 06:23:39 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:23:39 PM: INFO: Entered password.
+11/27/2024 06:23:39 PM: INFO: Clicked on Login button.
+11/27/2024 06:23:41 PM: INFO: Home page title verified.
+11/27/2024 06:23:41 PM: INFO: Logged in successfully.
+11/27/2024 06:24:06 PM: INFO: Generated project name: Project Test C6f14114, project key: PROJ-7229319C
+11/27/2024 06:24:35 PM: INFO: Toast message: Project data has been added successfully
+11/27/2024 06:25:02 PM: INFO: Project name verification testcase passed
+11/27/2024 06:25:06 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/27/2024 06:25:12 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:25:12 PM: INFO: Entered password.
+11/27/2024 06:25:12 PM: INFO: Clicked on Login button.
+11/27/2024 06:25:14 PM: INFO: Home page title verified.
+11/27/2024 06:25:14 PM: INFO: Logged in successfully.
+11/27/2024 06:25:18 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 06:25:19 PM: INFO: Step-2: Project Detail
+11/27/2024 06:25:19 PM: INFO: Generated project name: Project Test 5d4f1a15, project key: PROJ-52FB6EC4
+11/27/2024 06:25:22 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 06:25:24 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 06:25:24 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 06:25:27 PM: ERROR: An error occurred: Message: element click intercepted: Element <span data-v-92031580="" class="taskInnerData">...</span> is not clickable at point (1682, 329). Other element would receive the click: <div data-v-35ef1933="" class="bg-white sidebar_item_main hover-bg-blue hover-white cursor-pointer d-flex align-items-center justify-content-between mobile-listuser">...</div>
+  (Session info: chrome=131.0.6778.86)
 Stacktrace:
-	GetHandleVerifier [0x00007FF77754B5D2+29090]
-	(No symbol) [0x00007FF7774BE689]
-	(No symbol) [0x00007FF77737B1CA]
-	(No symbol) [0x00007FF7773D6C0E]
-	(No symbol) [0x00007FF7773D4682]
-	(No symbol) [0x00007FF7773D1B9B]
-	(No symbol) [0x00007FF7773D0DB5]
-	(No symbol) [0x00007FF7773C2D61]
-	(No symbol) [0x00007FF7773F66EA]
-	(No symbol) [0x00007FF7773C26A6]
-	(No symbol) [0x00007FF7773F6900]
-	(No symbol) [0x00007FF7774165D9]
-	(No symbol) [0x00007FF7773F6493]
-	(No symbol) [0x00007FF7773C09B1]
-	(No symbol) [0x00007FF7773C1B11]
-	GetHandleVerifier [0x00007FF777868C5D+3295277]
-	GetHandleVerifier [0x00007FF7778B4843+3605523]
-	GetHandleVerifier [0x00007FF7778AA707+3564247]
-	GetHandleVerifier [0x00007FF777606EB6+797318]
-	(No symbol) [0x00007FF7774C980F]
-	(No symbol) [0x00007FF7774C53F4]
-	(No symbol) [0x00007FF7774C5580]
-	(No symbol) [0x00007FF7774B4A1F]
-	BaseThreadInitThunk [0x00007FFF9D747374+20]
-	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
+	GetHandleVerifier [0x00007FF63F666CB5+28821]
+	(No symbol) [0x00007FF63F5D3840]
+	(No symbol) [0x00007FF63F47578A]
+	(No symbol) [0x00007FF63F4D0E8E]
+	(No symbol) [0x00007FF63F4CE92C]
+	(No symbol) [0x00007FF63F4CBAF6]
+	(No symbol) [0x00007FF63F4CAA51]
+	(No symbol) [0x00007FF63F4BCBA0]
+	(No symbol) [0x00007FF63F4EF2FA]
+	(No symbol) [0x00007FF63F4BC3F6]
+	(No symbol) [0x00007FF63F4EF510]
+	(No symbol) [0x00007FF63F50F412]
+	(No symbol) [0x00007FF63F4EF0A3]
+	(No symbol) [0x00007FF63F4BA778]
+	(No symbol) [0x00007FF63F4BB8E1]
+	GetHandleVerifier [0x00007FF63F99FCAD+3408013]
+	GetHandleVerifier [0x00007FF63F9B741F+3504127]
+	GetHandleVerifier [0x00007FF63F9AB5FD+3455453]
+	GetHandleVerifier [0x00007FF63F72BDBB+835995]
+	(No symbol) [0x00007FF63F5DEB5F]
+	(No symbol) [0x00007FF63F5DA814]
+	(No symbol) [0x00007FF63F5DA9AD]
+	(No symbol) [0x00007FF63F5CA199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
 
-09/04/2024 02:49:55 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 02:50:17 PM: ERROR: An exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter Project Name']"}
-  (Session info: chrome=128.0.6613.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-	GetHandleVerifier [0x00007FF77754B5D2+29090]
-	(No symbol) [0x00007FF7774BE689]
-	(No symbol) [0x00007FF77737B1CA]
-	(No symbol) [0x00007FF7773CEFD7]
-	(No symbol) [0x00007FF7773CF22C]
-	(No symbol) [0x00007FF7774197F7]
-	(No symbol) [0x00007FF7773F672F]
-	(No symbol) [0x00007FF7774165D9]
-	(No symbol) [0x00007FF7773F6493]
-	(No symbol) [0x00007FF7773C09B1]
-	(No symbol) [0x00007FF7773C1B11]
-	GetHandleVerifier [0x00007FF777868C5D+3295277]
-	GetHandleVerifier [0x00007FF7778B4843+3605523]
-	GetHandleVerifier [0x00007FF7778AA707+3564247]
-	GetHandleVerifier [0x00007FF777606EB6+797318]
-	(No symbol) [0x00007FF7774C980F]
-	(No symbol) [0x00007FF7774C53F4]
-	(No symbol) [0x00007FF7774C5580]
-	(No symbol) [0x00007FF7774B4A1F]
-	BaseThreadInitThunk [0x00007FFF9D747374+20]
-	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
-
-09/04/2024 02:50:22 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/04/2024 02:51:11 PM: ERROR: Project name verification testcase failed. Expected: Project afcb8392, Found: Test
-09/04/2024 02:51:11 PM: ERROR: An exception occurred: assert False
-09/04/2024 02:52:25 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 02:52:58 PM: ERROR: An exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter Project Name']"}
-  (Session info: chrome=128.0.6613.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-	GetHandleVerifier [0x00007FF77754B5D2+29090]
-	(No symbol) [0x00007FF7774BE689]
-	(No symbol) [0x00007FF77737B1CA]
-	(No symbol) [0x00007FF7773CEFD7]
-	(No symbol) [0x00007FF7773CF22C]
-	(No symbol) [0x00007FF7774197F7]
-	(No symbol) [0x00007FF7773F672F]
-	(No symbol) [0x00007FF7774165D9]
-	(No symbol) [0x00007FF7773F6493]
-	(No symbol) [0x00007FF7773C09B1]
-	(No symbol) [0x00007FF7773C1B11]
-	GetHandleVerifier [0x00007FF777868C5D+3295277]
-	GetHandleVerifier [0x00007FF7778B4843+3605523]
-	GetHandleVerifier [0x00007FF7778AA707+3564247]
-	GetHandleVerifier [0x00007FF777606EB6+797318]
-	(No symbol) [0x00007FF7774C980F]
-	(No symbol) [0x00007FF7774C53F4]
-	(No symbol) [0x00007FF7774C5580]
-	(No symbol) [0x00007FF7774B4A1F]
-	BaseThreadInitThunk [0x00007FFF9D747374+20]
-	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
-
-09/04/2024 02:53:59 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 02:54:32 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/04/2024 02:57:59 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 02:58:31 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/04/2024 03:02:12 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 03:05:09 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 03:05:27 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/04/2024 03:06:23 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/04/2024 03:06:41 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/04/2024 03:06:42 PM: INFO: Step-2 : Project Detail
-09/04/2024 03:06:42 PM: INFO: Step-3 : Project Avatar or Project Color
-09/04/2024 03:06:42 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/04/2024 03:06:42 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/04/2024 03:06:42 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/04/2024 03:06:42 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/04/2024 03:06:42 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/04/2024 03:07:43 PM: INFO: ***** Testing Create Project with required fields only*****
-09/04/2024 03:07:56 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/04/2024 03:07:57 PM: INFO: Step-2 : Project Detail
-09/04/2024 03:07:57 PM: INFO: Step-3 : Project Avatar or Project Color
-09/04/2024 03:07:58 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/04/2024 03:07:58 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/04/2024 03:07:58 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/04/2024 03:07:58 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/04/2024 03:07:58 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/04/2024 03:07:58 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/04/2024 03:08:38 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/04/2024 03:10:34 PM: ERROR: Project name verification testcase failed. Expected: Project a3ceba81, Found: Project A3ceba81
-09/05/2024 02:07:02 PM: INFO: ***** Testing Create Project with required fields only*****
-09/05/2024 02:07:16 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/05/2024 02:07:17 PM: INFO: Step-2 : Project Detail
-09/05/2024 02:07:17 PM: INFO: Step-3 : Project Avatar or Project Color
-09/05/2024 02:07:17 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/05/2024 02:07:17 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/05/2024 02:07:18 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/05/2024 02:07:18 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/05/2024 02:07:18 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/05/2024 02:07:18 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/05/2024 02:07:58 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/05/2024 02:08:51 PM: INFO: Project name verification testcase passed
-09/05/2024 02:09:51 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 02:10:23 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/05/2024 02:11:40 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 02:12:13 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/05/2024 02:12:14 PM: INFO: Step-2 : Project Detail
-09/05/2024 02:12:14 PM: INFO: Step-3 : Project Avatar or Project Color
-09/05/2024 02:12:14 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/05/2024 02:12:14 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/05/2024 02:12:14 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/05/2024 02:12:14 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/05/2024 02:12:14 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/05/2024 02:12:15 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/05/2024 02:12:15 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/05/2024 02:12:23 PM: INFO: Project name verification testcase passed
-09/05/2024 02:12:32 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/05/2024 02:13:31 PM: INFO: Project name verification testcase passed
-09/05/2024 02:14:03 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 02:14:36 PM: INFO: Step-2 : Project setup step 1
-09/05/2024 02:14:37 PM: INFO: Step-3 : Project setup step 2
-09/05/2024 02:14:37 PM: INFO: Step-4 : Project setup step 3
-09/05/2024 02:14:37 PM: INFO: Step-5 : Project setup step 4
-09/05/2024 02:14:37 PM: INFO: Step-6 : Project setup step 5
-09/05/2024 02:14:37 PM: INFO: Step-7 : Project setup step 6
-09/05/2024 02:15:03 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B605E82C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/19c4f87f0280c30ef596fb59489b9ce5
-09/05/2024 02:15:07 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B605E8FB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/19c4f87f0280c30ef596fb59489b9ce5
-09/05/2024 02:15:11 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B605EBDA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/19c4f87f0280c30ef596fb59489b9ce5
-09/05/2024 02:19:01 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 02:19:25 PM: INFO: Step-2 : Project setup step 1
-09/05/2024 02:19:25 PM: INFO: Step-3 : Project setup step 2
-09/05/2024 02:19:25 PM: INFO: Step-4 : Project setup step 3
-09/05/2024 02:19:25 PM: INFO: Step-5 : Project setup step 4
-09/05/2024 02:19:25 PM: INFO: Step-6 : Project setup step 5
-09/05/2024 02:19:25 PM: INFO: Step-7 : Project setup step 6
-09/05/2024 02:20:25 PM: ERROR: An exception occurred: Message: 
-Stacktrace:
-	GetHandleVerifier [0x00007FF68840B5D2+29090]
-	(No symbol) [0x00007FF68837E689]
-	(No symbol) [0x00007FF68823B1CA]
-	(No symbol) [0x00007FF68828EFD7]
-	(No symbol) [0x00007FF68828F22C]
-	(No symbol) [0x00007FF6882D97F7]
-	(No symbol) [0x00007FF6882B672F]
-	(No symbol) [0x00007FF6882D65D9]
-	(No symbol) [0x00007FF6882B6493]
-	(No symbol) [0x00007FF6882809B1]
-	(No symbol) [0x00007FF688281B11]
-	GetHandleVerifier [0x00007FF688728C5D+3295277]
-	GetHandleVerifier [0x00007FF688774843+3605523]
-	GetHandleVerifier [0x00007FF68876A707+3564247]
-	GetHandleVerifier [0x00007FF6884C6EB6+797318]
-	(No symbol) [0x00007FF68838980F]
-	(No symbol) [0x00007FF6883853F4]
-	(No symbol) [0x00007FF688385580]
-	(No symbol) [0x00007FF688374A1F]
-	BaseThreadInitThunk [0x00007FFF9D747374+20]
-	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
-
-09/05/2024 02:20:29 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/05/2024 02:21:32 PM: ERROR: Project name verification testcase failed. Expected: Project 0341c043, Found: Project 98fd392b
-09/05/2024 02:21:33 PM: ERROR: An exception occurred: assert False
-09/05/2024 02:21:37 PM: INFO: ***** Testing Create Task *****
-09/05/2024 02:22:08 PM: INFO: Testing Login with Valid Credentials
-09/05/2024 02:22:28 PM: INFO: Testing Login with Invalid Credentials
-09/05/2024 02:22:38 PM: INFO: Testing Homepage Title
-09/05/2024 02:32:11 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 02:32:29 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/05/2024 02:32:30 PM: INFO: Step-2 : Project Detail
-09/05/2024 02:32:30 PM: INFO: Step-3 : Project Avatar or Project Color
-09/05/2024 02:32:30 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/05/2024 02:32:31 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/05/2024 02:32:31 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/05/2024 02:32:31 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/05/2024 02:32:31 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/05/2024 02:32:31 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/05/2024 02:32:31 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/05/2024 02:32:39 PM: INFO: Project name verification testcase passed
-09/05/2024 02:32:43 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/05/2024 02:33:47 PM: INFO: Project name verification testcase passed
-09/05/2024 02:33:51 PM: INFO: ***** Testing Create Task *****
-09/05/2024 02:34:27 PM: INFO: Testing Login with Valid Credentials
-09/05/2024 02:34:47 PM: INFO: Testing Login with Invalid Credentials
-09/05/2024 02:34:56 PM: INFO: Testing Homepage Title
-09/05/2024 02:39:38 PM: INFO: ***** Testing Create Task *****
-09/05/2024 02:43:47 PM: INFO: ***** Testing Create Task *****
-09/05/2024 02:44:12 PM: INFO: Task name verification passed.
-09/05/2024 02:46:00 PM: INFO: ***** Testing Create Task *****
-09/05/2024 02:46:23 PM: INFO: Task name verification passed.
-09/05/2024 02:50:02 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 02:50:22 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/05/2024 02:50:23 PM: INFO: Step-2 : Project Detail
-09/05/2024 02:50:23 PM: INFO: Step-3 : Project Avatar or Project Color
-09/05/2024 02:50:23 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/05/2024 02:50:23 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/05/2024 02:50:23 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/05/2024 02:50:23 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/05/2024 02:50:23 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/05/2024 02:50:24 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/05/2024 02:50:24 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/05/2024 02:50:32 PM: INFO: Project name verification testcase passed
-09/05/2024 02:50:36 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/05/2024 02:51:31 PM: INFO: Project name verification testcase passed
-09/05/2024 02:51:35 PM: INFO: ***** Testing Create Task *****
-09/05/2024 02:52:01 PM: INFO: Task name verification passed.
-09/05/2024 02:52:05 PM: INFO: Testing Login with Valid Credentials
-09/05/2024 02:52:21 PM: INFO: Testing Login with Invalid Credentials
-09/05/2024 02:52:31 PM: INFO: Testing Homepage Title
-09/05/2024 03:14:06 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/05/2024 03:14:27 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/05/2024 03:14:28 PM: INFO: Step-2 : Project Detail
-09/05/2024 03:14:28 PM: INFO: Step-3 : Project Avatar or Project Color
-09/05/2024 03:14:28 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/05/2024 03:14:28 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/05/2024 03:14:29 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/05/2024 03:14:29 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/05/2024 03:14:29 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/05/2024 03:15:33 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/05/2024 03:16:34 PM: ERROR: Project name verification testcase failed. Expected: Test Project b9315c40, Found: Test Project B9315c40
-09/05/2024 03:16:38 PM: INFO: ***** Testing Create Task *****
-09/05/2024 03:17:09 PM: INFO: Task name verification passed.
-09/05/2024 03:17:13 PM: INFO: Testing Login with Valid Credentials
-09/05/2024 03:17:23 PM: INFO: Testing Login with Invalid Credentials
-09/05/2024 03:17:34 PM: INFO: Testing Homepage Title
-09/09/2024 01:35:48 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/09/2024 01:36:54 PM: ERROR: An error occurred: Message: 
-
-09/09/2024 01:37:00 PM: INFO: ***** Testing Create Project using template with required fields only *****
-09/09/2024 01:37:11 PM: INFO: Successfully logged in.
-09/09/2024 01:37:35 PM: INFO: Generated project name: Project Test A1f4c675, project key: PROJ-4BD0CAEE
-09/09/2024 01:38:24 PM: INFO: Project name verification testcase passed
-09/09/2024 01:38:51 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/09/2024 01:39:01 PM: INFO: Successfully logged in.
-09/09/2024 01:39:24 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/09/2024 01:39:25 PM: INFO: Step-2 : Project Detail
-09/09/2024 01:39:25 PM: INFO: Generated project name: Project Test 104eaa85, project key: PROJ-2885F3D2
-09/09/2024 01:39:26 PM: INFO: Step-3 : Project Avatar or Project Color
-09/09/2024 01:39:26 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/09/2024 01:39:26 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/09/2024 01:39:26 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/09/2024 01:39:26 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/09/2024 01:39:26 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/09/2024 01:39:26 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/09/2024 01:39:27 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/09/2024 02:03:12 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/09/2024 02:03:21 PM: INFO: Successfully logged in.
-09/09/2024 02:03:27 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/09/2024 02:03:27 PM: INFO: Step-2 : Project Detail
-09/09/2024 02:03:27 PM: INFO: Generated project name: Project Test 2f5b22f0, project key: PROJ-A0EB0ED8
-09/09/2024 02:03:29 PM: INFO: Step-3 : Project Avatar or Project Color
-09/09/2024 02:03:29 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/09/2024 02:03:29 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/09/2024 02:03:29 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/09/2024 02:03:29 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/09/2024 02:03:29 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/09/2024 02:03:29 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/09/2024 02:03:30 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/09/2024 02:04:14 PM: INFO: ***** Testing Create Project using template with required fields only *****
-09/09/2024 02:04:23 PM: INFO: Successfully logged in.
-09/09/2024 02:04:34 PM: INFO: Generated project name: Project Test 28ebb77a, project key: PROJ-EE7303DB
-09/09/2024 02:05:11 PM: INFO: Project name verification testcase passed
-09/09/2024 02:05:15 PM: INFO: ***** Testing Create Task *****
-09/09/2024 02:05:23 PM: INFO: Logged in successfully.
-09/09/2024 02:05:30 PM: INFO: Navigated to the Projects section.
-09/09/2024 02:05:32 PM: INFO: Selected project: Test Project
-09/09/2024 02:05:32 PM: INFO: Project page title verified.
-09/09/2024 02:05:35 PM: INFO: Task 'Task_3ce2fc' created successfully.
-09/09/2024 02:05:41 PM: INFO: Verified task name: Task_3ce2fc
-09/09/2024 02:05:45 PM: INFO: Testing Login with Valid Credentials
-09/09/2024 02:06:01 PM: INFO: Login with valid credentials passed.
-09/09/2024 02:06:04 PM: INFO: Testing Login with Invalid Credentials
-09/09/2024 02:06:11 PM: INFO: Login with invalid credentials passed.
-09/09/2024 02:06:15 PM: INFO: Testing Homepage Title
-09/09/2024 02:06:20 PM: INFO: Homepage title verification passed.
-09/09/2024 02:59:13 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/09/2024 02:59:48 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/09/2024 02:59:49 PM: INFO: Step-2 : Project Detail
-09/09/2024 02:59:49 PM: INFO: Step-3 : Project Avatar or Project Color
-09/09/2024 02:59:49 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/09/2024 02:59:49 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/09/2024 02:59:49 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/09/2024 02:59:49 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/09/2024 02:59:49 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/09/2024 02:59:50 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/09/2024 02:59:50 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/09/2024 03:00:27 PM: ERROR: Project name verification testcase failed. Expected: Test Project a82cfa96, Found: Test Project A82cfa96
-09/09/2024 03:00:32 PM: INFO: ***** Testing Create Project using template with required fields only*****
-09/09/2024 03:00:38 PM: INFO: ***** Testing Create Task *****
-09/09/2024 03:00:46 PM: INFO: Testing Login with Valid Credentials
-09/09/2024 03:00:59 PM: INFO: Testing Login with Invalid Credentials
-09/09/2024 03:01:09 PM: INFO: Testing Homepage Title
-09/09/2024 03:11:13 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/09/2024 03:11:24 PM: INFO: Successfully logged in.
-09/09/2024 03:11:35 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/09/2024 03:11:36 PM: INFO: Step-2 : Project Detail
-09/09/2024 03:11:36 PM: INFO: Generated project name: QA Test Project 0671131d, project key: PROJ-98F02221
-09/09/2024 03:11:37 PM: INFO: Step-3 : Project Avatar or Project Color
-09/09/2024 03:11:37 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/09/2024 03:11:37 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/09/2024 03:11:37 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/09/2024 03:11:37 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/09/2024 03:11:37 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/09/2024 03:11:37 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/09/2024 03:11:38 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/09/2024 03:12:19 PM: INFO: ***** Testing Create Project using template with required fields only *****
-09/09/2024 03:12:27 PM: INFO: Successfully logged in.
-09/09/2024 03:13:24 PM: INFO: Generated project name: QA Test Project E32b1be1, project key: PROJ-7FE37C2F
-09/09/2024 03:14:02 PM: INFO: Project name verification testcase passed
-09/09/2024 03:14:07 PM: INFO: ***** Testing Create Task *****
-09/09/2024 03:14:16 PM: INFO: Logged in successfully.
-09/09/2024 03:14:41 PM: INFO: Navigated to the Projects section.
-09/09/2024 03:14:43 PM: INFO: Selected project: Test Project
-09/09/2024 03:14:43 PM: INFO: Project page title verified.
-09/09/2024 03:14:47 PM: INFO: Task 'Task_7bb094' created successfully.
-09/09/2024 03:15:19 PM: INFO: Verified task name: Task_7bb094
-09/09/2024 03:15:25 PM: INFO: Testing Login with Valid Credentials
-09/09/2024 03:15:40 PM: INFO: Login with valid credentials passed.
-09/09/2024 03:15:45 PM: INFO: Testing Login with Invalid Credentials
-09/09/2024 03:15:50 PM: INFO: Login with invalid credentials passed.
-09/09/2024 03:15:54 PM: INFO: Testing Homepage Title
-09/09/2024 03:16:00 PM: INFO: Homepage title verification passed.
-09/10/2024 06:45:42 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/10/2024 06:46:48 PM: ERROR: An error occurred: Message: 
-
-09/10/2024 06:47:47 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/10/2024 06:47:57 PM: INFO: Successfully logged in.
-09/10/2024 06:48:01 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/10/2024 06:48:02 PM: INFO: Step-2 : Project Detail
-09/10/2024 06:48:02 PM: INFO: Generated project name: QA Test Project 1d9e5945, project key: PROJ-EBFC0354
-09/10/2024 06:48:03 PM: INFO: Step-3 : Project Avatar or Project Color
-09/10/2024 06:48:03 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/10/2024 06:48:03 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/10/2024 06:48:03 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/10/2024 06:48:03 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/10/2024 06:48:03 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/10/2024 06:48:03 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/10/2024 06:48:04 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/10/2024 06:58:22 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/10/2024 06:58:38 PM: INFO: Successfully logged in.
-09/10/2024 06:58:56 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/10/2024 06:58:57 PM: INFO: Step-2 : Project Detail
-09/10/2024 06:58:57 PM: INFO: Generated project name: QA Test Project 45839ebc, project key: PROJ-80A9E544
-09/10/2024 06:58:58 PM: INFO: Step-3 : Project Avatar or Project Color
-09/10/2024 06:58:58 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/10/2024 06:58:58 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/10/2024 06:58:58 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/10/2024 06:58:58 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/10/2024 06:58:58 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/10/2024 06:58:58 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/10/2024 06:58:59 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/10/2024 06:59:45 PM: INFO: ***** Testing Create Project using template with required fields only *****
-09/10/2024 06:59:53 PM: INFO: Successfully logged in.
-09/10/2024 07:01:01 PM: ERROR: An error occurred: Message: 
-Stacktrace:
-	GetHandleVerifier [0x00007FF65199B5D2+29090]
-	(No symbol) [0x00007FF65190E689]
-	(No symbol) [0x00007FF6517CB1CA]
-	(No symbol) [0x00007FF65181EFD7]
-	(No symbol) [0x00007FF65181F22C]
-	(No symbol) [0x00007FF6518697F7]
-	(No symbol) [0x00007FF65184672F]
-	(No symbol) [0x00007FF6518665D9]
-	(No symbol) [0x00007FF651846493]
-	(No symbol) [0x00007FF6518109B1]
-	(No symbol) [0x00007FF651811B11]
-	GetHandleVerifier [0x00007FF651CB8C5D+3295277]
-	GetHandleVerifier [0x00007FF651D04843+3605523]
-	GetHandleVerifier [0x00007FF651CFA707+3564247]
-	GetHandleVerifier [0x00007FF651A56EB6+797318]
-	(No symbol) [0x00007FF65191980F]
-	(No symbol) [0x00007FF6519153F4]
-	(No symbol) [0x00007FF651915580]
-	(No symbol) [0x00007FF651904A1F]
-	BaseThreadInitThunk [0x00007FFF9D747374+20]
-	RtlUserThreadStart [0x00007FFF9EE5CC91+33]
-
-09/10/2024 07:22:23 PM: INFO: ***** Testing Create Project using blank project with required fields only*****
-09/10/2024 07:22:40 PM: INFO: Successfully logged in.
-09/10/2024 07:22:41 PM: INFO: Step-1 : Project Type - Blank Project or Use a Template
-09/10/2024 07:22:42 PM: INFO: Step-2 : Project Detail
-09/10/2024 07:22:42 PM: INFO: Generated project name: QA Test Project 77f813d2, project key: PROJ-C58B0A51
-09/10/2024 07:22:43 PM: INFO: Step-3 : Project Avatar or Project Color
-09/10/2024 07:22:43 PM: INFO: Step-4 : Project Type - Public Project or Private Project
-09/10/2024 07:22:43 PM: INFO: Step-5 : Task Type - Add the type of tasks you need
-09/10/2024 07:22:43 PM: INFO: Step-6 : Project Status - Add the statuses for the project
-09/10/2024 07:22:43 PM: INFO: Step-7 : Task Status - Set up the statuses for tasks
-09/10/2024 07:22:43 PM: INFO: Step-8 : Enable Apps - Priority,Multiple Assignees,Time Estimate,Milestones,Tags,Custom Fields,Time Tracking And AI
-09/10/2024 07:22:43 PM: INFO: Step-9 : Enable views - List,Board,Project Details,Comments,Calendar,Activity,Workload And Table
-09/10/2024 07:23:17 PM: INFO: Step-10 : Project Summary - Details of the Project set up
-09/10/2024 07:23:33 PM: INFO: ***** Testing Create Project using template with required fields only *****
-09/10/2024 07:23:42 PM: INFO: Successfully logged in.
-09/10/2024 07:24:09 PM: INFO: Generated project name: QA Test Project 46532fed, project key: PROJ-61E9FFAF
-09/10/2024 07:24:47 PM: INFO: Project name verification testcase passed
+11/27/2024 06:25:32 PM: INFO: ***** Testing Create Task *****
+11/27/2024 06:25:38 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:25:38 PM: INFO: Entered password.
+11/27/2024 06:25:38 PM: INFO: Clicked on Login button.
+11/27/2024 06:25:40 PM: INFO: Home page title verified.
+11/27/2024 06:25:40 PM: INFO: Logged in successfully.
+11/27/2024 06:26:02 PM: INFO: Navigated to the Projects section.
+11/27/2024 06:26:03 PM: INFO: Selected project: Test Project
+11/27/2024 06:26:03 PM: INFO: Project page title verified.
+11/27/2024 06:26:07 PM: INFO: Task 'Task_767161' created successfully.
+11/27/2024 06:26:28 PM: INFO: Verified task name: Task_767161
+11/27/2024 06:26:32 PM: INFO: Testing Login with Valid Credentials
+11/27/2024 06:26:38 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:26:38 PM: INFO: Entered password.
+11/27/2024 06:26:38 PM: INFO: Clicked on Login button.
+11/27/2024 06:26:40 PM: INFO: Home page title verified.
+11/27/2024 06:26:40 PM: INFO: Logged in successfully.
+11/27/2024 06:26:43 PM: INFO: Login with valid credentials passed.
+11/27/2024 06:26:47 PM: INFO: Testing Login with Invalid Credentials
+11/27/2024 06:26:53 PM: INFO: Entered username: aliantesting8555@gmail.com.
+11/27/2024 06:26:53 PM: INFO: Entered password.
+11/27/2024 06:26:53 PM: INFO: Clicked on Login button.
+11/27/2024 06:26:54 PM: INFO: Retrieved warning message: Invalid username or password.
+11/27/2024 06:26:54 PM: INFO: Login with invalid credentials passed.
+11/27/2024 06:26:58 PM: INFO: Testing Homepage Title
+11/27/2024 06:27:05 PM: INFO: Homepage title verification passed.
+11/27/2024 06:45:42 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/27/2024 06:45:48 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:45:48 PM: INFO: Entered password.
+11/27/2024 06:45:48 PM: INFO: Clicked on Login button.
+11/27/2024 06:45:56 PM: INFO: Home page title verified.
+11/27/2024 06:45:56 PM: INFO: Logged in successfully.
+11/27/2024 06:46:14 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 06:46:15 PM: INFO: Step-2: Project Detail
+11/27/2024 06:46:15 PM: INFO: Generated project name: Project Test Bffd1658, project key: PROJ-D130F155
+11/27/2024 06:46:17 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 06:46:19 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 06:46:20 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 06:46:22 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/27/2024 06:46:22 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/27/2024 06:46:22 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/27/2024 06:46:23 PM: INFO: Step-9: Custom Field
+11/27/2024 06:46:23 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/27/2024 06:46:23 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/27/2024 06:48:13 PM: INFO: Toast message: None
+11/27/2024 06:51:05 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/27/2024 06:51:11 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/27/2024 06:51:11 PM: INFO: Entered password.
+11/27/2024 06:51:11 PM: INFO: Clicked on Login button.
+11/27/2024 06:51:14 PM: INFO: Home page title verified.
+11/27/2024 06:51:14 PM: INFO: Logged in successfully.
+11/27/2024 06:51:18 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/27/2024 06:51:18 PM: INFO: Step-2: Project Detail
+11/27/2024 06:51:18 PM: INFO: Generated project name: Project Test 547ac1b4, project key: PROJ-4CD105FF
+11/27/2024 06:51:21 PM: INFO: Step-3: Project Avatar or Project Color
+11/27/2024 06:51:23 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/27/2024 06:51:24 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/27/2024 06:51:26 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/27/2024 06:51:26 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/27/2024 06:51:26 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/27/2024 06:51:26 PM: INFO: Step-9: Custom Field
+11/27/2024 06:51:26 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/27/2024 06:51:26 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/27/2024 06:53:17 PM: INFO: Toast message: None

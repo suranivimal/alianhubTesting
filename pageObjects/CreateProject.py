@@ -1,4 +1,5 @@
 import time
+import uuid
 
 from selenium.common import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.by import By
@@ -13,32 +14,41 @@ class CreateProject:
     """
 
     # Locators
+
     btn_new_project = "(//button[normalize-space()='+ New Project'])[1]"
+
     # Step 1
     btn_blank_project = "//div[@id='createblankproject_driver']//button[@type='button']"
     btn_use_a_template = "(//button[@type='button'])[2]"
+
     # Step 2
     txt_project_name = "//input[@placeholder='Enter Project Name']"
     txt_project_key = "//div[@id='createprojectkey_driver']//input[@id='inputId']"
     dropdown_category = "//div[@id='createprojectcategory_driver']//input[@id='inputId']"
-    dropdown_title_category_list = "//div[@class='assignee-headtitle d-block text-ellipsis text-nowrap'][normalize-space()='Category List']"
+    lst_dropdown_title_category = "//div[@class='assignee-headtitle d-block text-ellipsis text-nowrap'][normalize-space()='Category List']"
     option_hourly_price = "//span[normalize-space()='Hourly Price']"
     date_picker_due_date = "// input[ @ placeholder = 'Select Project Due Date']"
-    lead_button = "//ul[@class='d-flex']"
-    dropdown_option = "//span[normalize-space()='Member One']"
-    dropdown_close_btn = "//img[@alt='closeButton']"
+    btn_add_user = "//ul[@class='d-flex']"
+    lst_user_dropdown_option = "//span[normalize-space()='Bella Mario']"
+    btn_lst_user_dropdown_close = "//img[@alt='closeButton']"
+
     # Step 3
-    upload_btn = "//label[normalize-space()='Upload']"
+    btn_upload = "//label[normalize-space()='Upload']"
+
     # Step 4
     project_type_private = "//p[text()='Private']"
+
     # Step 5
     task_type_plus_icon = "//img[@id='createprojecttasktype_driver']"
     task_type_template_name = "//input[@placeholder='Enter Template']"
     task_type_template_save_icon = "//span[@class='position-ab edit-rightinput save__closeimg-wrapper']//img[@class='cursor-pointer']"
     task_type_template_add_btn = "//button[@id='createprojecttasktypenew_driver']"
-    task_type_template_bug = "//span[normalize-space()='Bug']"
-    task_type_template_subtask = "//span[normalize-space()='Sub Task']"
-    task_type_template_close_icon = "//div[@class='cursor-pointer d-flex align-items-center']//img"
+    task_type_template_bug = "(//span[@class='d-block emp_label font-weight-400 pl-10px'][normalize-space()='Bug'])[1]"
+    task_type_template_subtask = "(//span[normalize-space()='Sub Task'])[1]"
+    task_type_template_close_icon = "//div[@class='cursor-pointer d-flex align-items-center text-nowrap']//img"
+
+    # Step 8
+    btn_enable_apps = ".toggle.bg-lowlight-gray.mr-10px"
 
     btn_next = "//button[normalize-space()='Next']"
     toggle_view_project_details = "//div[@id='my-sidebar']//div[3]//div[2]//div[2]"
@@ -152,7 +162,7 @@ class CreateProject:
         """
         Selects a category from the category dropdown.
         """
-        locator = (By.XPATH, self.dropdown_title_category_list)
+        locator = (By.XPATH, self.lst_dropdown_title_category)
         try:
             webdriver_wait_for_text_in_element(driver=self.driver, locator=locator, text="Category List", timeout=60)
             self.driver.find_element(By.XPATH, self.option_hourly_price).click()
@@ -163,7 +173,7 @@ class CreateProject:
         """
         Clicks on the 'Next' button to proceed to the next step in the project creation process.
         """
-        locator = (By.XPATH, self.lead_button)
+        locator = (By.XPATH, self.btn_add_user)
         try:
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
             self.driver.find_element(*locator).click()
@@ -172,7 +182,7 @@ class CreateProject:
 
     def select_assignee(self):
 
-        locator = (By.XPATH, self.dropdown_option)
+        locator = (By.XPATH, self.lst_user_dropdown_option)
         try:
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
             self.driver.find_element(*locator).click()
@@ -180,16 +190,16 @@ class CreateProject:
             print(f"Error selecting assignee: {e}")
 
     def close_assignee_sidebar(self):
-        locator = (By.XPATH, self.dropdown_close_btn)
+        locator = (By.XPATH, self.btn_lst_user_dropdown_close)
         try:
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=locator, timeout=60)
             self.driver.find_element(*locator).click()
         except (NoSuchElementException, TimeoutException) as e:
-            print(f"Error clicking on  close button: {e}")
+            print(f"Error clicking on  close button of assignee sidebar: {e}")
 
     def project_image_upload(self):
 
-        upload_button = self.driver.find_element(By.XPATH, self.upload_btn)  # Adjust XPath
+        upload_button = self.driver.find_element(By.XPATH, self.btn_upload)  # Adjust XPath
         upload_button.click()
 
         # Wait for the file picker to open
@@ -209,6 +219,10 @@ class CreateProject:
         except (NoSuchElementException, TimeoutException) as e:
             print(f"Error clicking on 'project type': {e}")
 
+    def generate_task_template_name(self):
+        unique_id = uuid.uuid4().hex[:4].capitalize()  # Generate a unique identifier
+        return f"{unique_id}"
+
     def select_task_type_template(self):
 
         plus_locator = (By.XPATH, self.task_type_plus_icon)
@@ -219,12 +233,14 @@ class CreateProject:
         template_subtask_locator = (By.XPATH, self.task_type_template_subtask)
         template_close_locator = (By.XPATH, self.task_type_template_close_icon)
 
+        self.template_name = self.generate_task_template_name()
+
         try:
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=plus_locator, timeout=60)
             self.driver.find_element(*plus_locator).click()
 
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=template_name_locator, timeout=60)
-            self.driver.find_element(*template_name_locator).send_keys("QA")
+            self.driver.find_element(*template_name_locator).send_keys(self.template_name)
 
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=template_save_locator, timeout=60)
             self.driver.find_element(*template_save_locator).click()
@@ -232,25 +248,33 @@ class CreateProject:
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=template_add_locator, timeout=60)
             self.driver.find_element(*template_add_locator).click()
 
-            time.sleep(20)
+            # time.sleep(20)
 
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=template_bug_locator, timeout=60)
             self.driver.find_element(*template_bug_locator).click()
 
-            time.sleep(20)
+            # time.sleep(20)
 
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=template_subtask_locator, timeout=60)
             self.driver.find_element(*template_subtask_locator).click()
 
-            time.sleep(20)
+            # time.sleep(20)
 
             webdriver_wait_for_element_to_be_clickable(driver=self.driver, locator=template_close_locator, timeout=60)
             self.driver.find_element(*template_close_locator).click()
 
-            time.sleep(20)
+            # time.sleep(20)
 
         except (NoSuchElementException, TimeoutException) as e:
-            print(f"Error clicking on 'project type': {e}")
+            print(f"Error selecting on 'task type template': {e}")
+
+    def click_on_enable_apps(self):
+        locator =(By.CSS_SELECTOR,self.btn_enable_apps)
+        try:
+            webdriver_wait_for_element_to_be_clickable(driver=self.driver,locator=locator,timeout=60)
+            self.driver.find_element(*locator).click()
+        except(NoSuchElementException,TimeoutException) as e:
+            print(f"Error clicking on 'enable apps' button:{e}")
 
     def click_on_next_button(self):
         """
@@ -299,7 +323,7 @@ class CreateProject:
         """
         locator = (By.XPATH, self.btn_create_project)
         try:
-            webdriver_wait_for_visibility_of_element_located(driver=self.driver, element_tuple=locator, timeout=60)
+            webdriver_wait_for_visibility_of_element_located(driver=self.driver, element_tuple=locator, timeout=90)
             self.driver.find_element(*locator).click()
         except (NoSuchElementException, TimeoutException) as e:
             print(f"Error clicking on 'Create Project' button: {e}")
@@ -313,7 +337,7 @@ class CreateProject:
         toast_locator = (By.XPATH, self.toast_message_project)
         try:
             webdriver_wait_for_visibility_of_element_located(driver=self.driver, element_tuple=toast_locator,
-                                                             timeout=80)
+                                                             timeout=90)
             toast_element = self.driver.find_element(*toast_locator)
             return toast_element.text
         except (NoSuchElementException, TimeoutException) as e:
