@@ -227,9 +227,11 @@ class TestCreateProject:
             create_project.click_on_next_button()
 
             self.logger.info("Step-6: Project Status - Add the statuses for the project")
+            create_project.select_project_status_template()
             create_project.click_on_next_button()
 
             self.logger.info("Step-7: Task Status - Set up the statuses for tasks")
+            create_project.select_task_status_template()
             create_project.click_on_next_button()
 
             self.logger.info(

@@ -224,3 +224,370 @@ Stacktrace:
 11/27/2024 06:51:26 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
 11/27/2024 06:51:26 PM: INFO: Step-10: Project Summary - Details of the Project setup
 11/27/2024 06:53:17 PM: INFO: Toast message: None
+11/28/2024 06:14:31 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/28/2024 06:14:36 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/28/2024 06:14:37 PM: INFO: Entered password.
+11/28/2024 06:14:37 PM: INFO: Clicked on Login button.
+11/28/2024 06:14:45 PM: INFO: Home page title verified.
+11/28/2024 06:14:45 PM: INFO: Logged in successfully.
+11/28/2024 06:15:06 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/28/2024 06:15:07 PM: INFO: Step-2: Project Detail
+11/28/2024 06:15:07 PM: INFO: Generated project name: Project Test 5f836e7b, project key: PROJ-8E6C0611
+11/28/2024 06:15:09 PM: INFO: Step-3: Project Avatar or Project Color
+11/28/2024 06:15:12 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/28/2024 06:15:12 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/28/2024 06:15:14 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/28/2024 06:15:14 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/28/2024 06:15:14 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/28/2024 06:15:14 PM: INFO: Step-9: Custom Field
+11/28/2024 06:15:14 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/28/2024 06:15:14 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/28/2024 06:17:05 PM: INFO: Toast message: None
+11/28/2024 06:17:31 PM: ERROR: An error occurred: Project name mismatch. Expected: Project Test 5f836e7b, Found: SASA
+assert 'SASA' == 'Project Test 5f836e7b'
+  
+  - Project Test 5f836e7b
+  + SASA
+11/28/2024 06:18:36 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/28/2024 06:18:42 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/28/2024 06:18:42 PM: INFO: Entered password.
+11/28/2024 06:18:42 PM: INFO: Clicked on Login button.
+11/28/2024 06:18:44 PM: INFO: Home page title verified.
+11/28/2024 06:18:44 PM: INFO: Logged in successfully.
+11/28/2024 06:19:07 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/28/2024 06:19:08 PM: INFO: Step-2: Project Detail
+11/28/2024 06:19:08 PM: INFO: Generated project name: Project Test E5fbbf48, project key: PROJ-652C1852
+11/28/2024 06:19:10 PM: INFO: Step-3: Project Avatar or Project Color
+11/28/2024 06:19:13 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/28/2024 06:19:13 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/28/2024 06:19:15 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/28/2024 06:19:15 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/28/2024 06:19:15 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/28/2024 06:19:15 PM: INFO: Step-9: Custom Field
+11/28/2024 06:19:15 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/28/2024 06:19:15 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/28/2024 06:21:06 PM: INFO: Toast message: None
+11/28/2024 06:43:46 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/28/2024 06:43:52 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/28/2024 06:43:52 PM: INFO: Entered password.
+11/28/2024 06:43:53 PM: INFO: Clicked on Login button.
+11/28/2024 06:43:55 PM: INFO: Home page title verified.
+11/28/2024 06:43:55 PM: INFO: Logged in successfully.
+11/28/2024 06:44:00 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/28/2024 06:44:01 PM: INFO: Step-2: Project Detail
+11/28/2024 06:44:01 PM: INFO: Generated project name: Project Test E32b1bd2, project key: PROJ-BF8FC8B2
+11/28/2024 06:44:04 PM: INFO: Step-3: Project Avatar or Project Color
+11/28/2024 06:44:06 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/28/2024 06:44:06 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/28/2024 06:44:08 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/28/2024 06:44:09 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/28/2024 06:44:09 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/28/2024 06:44:10 PM: INFO: Step-9: Custom Field
+11/28/2024 06:44:10 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/28/2024 06:44:10 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/28/2024 06:46:00 PM: INFO: Toast message: None
+11/29/2024 12:29:23 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 12:29:29 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 12:29:29 PM: INFO: Entered password.
+11/29/2024 12:29:29 PM: INFO: Clicked on Login button.
+11/29/2024 12:29:34 PM: INFO: Home page title verified.
+11/29/2024 12:29:34 PM: INFO: Logged in successfully.
+11/29/2024 12:29:37 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 12:29:37 PM: INFO: Step-2: Project Detail
+11/29/2024 12:29:37 PM: INFO: Generated project name: Project Test 7e1e47f8, project key: PROJ-CF56A498
+11/29/2024 12:29:40 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 12:29:42 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 12:29:43 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 12:29:44 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/29/2024 12:29:46 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/29/2024 12:29:48 PM: ERROR: An error occurred: Message: element click intercepted: Element <span class="d-block emp_label font-weight-400 pl-10px">...</span> is not clickable at point (1615, 152). Other element would receive the click: <p class="v-toast__text">...</p>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF769556CB5+28821]
+	(No symbol) [0x00007FF7694C3840]
+	(No symbol) [0x00007FF76936578A]
+	(No symbol) [0x00007FF7693C0E8E]
+	(No symbol) [0x00007FF7693BE92C]
+	(No symbol) [0x00007FF7693BBAF6]
+	(No symbol) [0x00007FF7693BAA51]
+	(No symbol) [0x00007FF7693ACBA0]
+	(No symbol) [0x00007FF7693DF2FA]
+	(No symbol) [0x00007FF7693AC3F6]
+	(No symbol) [0x00007FF7693DF510]
+	(No symbol) [0x00007FF7693FF412]
+	(No symbol) [0x00007FF7693DF0A3]
+	(No symbol) [0x00007FF7693AA778]
+	(No symbol) [0x00007FF7693AB8E1]
+	GetHandleVerifier [0x00007FF76988FCAD+3408013]
+	GetHandleVerifier [0x00007FF7698A741F+3504127]
+	GetHandleVerifier [0x00007FF76989B5FD+3455453]
+	GetHandleVerifier [0x00007FF76961BDBB+835995]
+	(No symbol) [0x00007FF7694CEB5F]
+	(No symbol) [0x00007FF7694CA814]
+	(No symbol) [0x00007FF7694CA9AD]
+	(No symbol) [0x00007FF7694BA199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
+
+11/29/2024 12:35:05 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 12:35:11 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 12:35:11 PM: INFO: Entered password.
+11/29/2024 12:35:11 PM: INFO: Clicked on Login button.
+11/29/2024 12:35:13 PM: INFO: Home page title verified.
+11/29/2024 12:35:13 PM: INFO: Logged in successfully.
+11/29/2024 12:35:37 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 12:35:38 PM: INFO: Step-2: Project Detail
+11/29/2024 12:35:38 PM: INFO: Generated project name: Project Test F1a7ab1f, project key: PROJ-AF7E519C
+11/29/2024 12:35:40 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 12:35:43 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 12:35:43 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 12:35:45 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/29/2024 12:35:46 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/29/2024 12:35:48 PM: ERROR: An error occurred: Message: element click intercepted: Element <span class="d-block emp_label font-weight-400 pl-10px">...</span> is not clickable at point (1615, 152). Other element would receive the click: <p class="v-toast__text">...</p>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF769556CB5+28821]
+	(No symbol) [0x00007FF7694C3840]
+	(No symbol) [0x00007FF76936578A]
+	(No symbol) [0x00007FF7693C0E8E]
+	(No symbol) [0x00007FF7693BE92C]
+	(No symbol) [0x00007FF7693BBAF6]
+	(No symbol) [0x00007FF7693BAA51]
+	(No symbol) [0x00007FF7693ACBA0]
+	(No symbol) [0x00007FF7693DF2FA]
+	(No symbol) [0x00007FF7693AC3F6]
+	(No symbol) [0x00007FF7693DF510]
+	(No symbol) [0x00007FF7693FF412]
+	(No symbol) [0x00007FF7693DF0A3]
+	(No symbol) [0x00007FF7693AA778]
+	(No symbol) [0x00007FF7693AB8E1]
+	GetHandleVerifier [0x00007FF76988FCAD+3408013]
+	GetHandleVerifier [0x00007FF7698A741F+3504127]
+	GetHandleVerifier [0x00007FF76989B5FD+3455453]
+	GetHandleVerifier [0x00007FF76961BDBB+835995]
+	(No symbol) [0x00007FF7694CEB5F]
+	(No symbol) [0x00007FF7694CA814]
+	(No symbol) [0x00007FF7694CA9AD]
+	(No symbol) [0x00007FF7694BA199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
+
+11/29/2024 12:36:45 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 12:36:52 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 12:36:52 PM: INFO: Entered password.
+11/29/2024 12:36:52 PM: INFO: Clicked on Login button.
+11/29/2024 12:36:54 PM: INFO: Home page title verified.
+11/29/2024 12:36:54 PM: INFO: Logged in successfully.
+11/29/2024 12:37:17 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 12:37:17 PM: INFO: Step-2: Project Detail
+11/29/2024 12:37:17 PM: INFO: Generated project name: Project Test Dc25d3e0, project key: PROJ-DA98DD71
+11/29/2024 12:37:20 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 12:37:22 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 12:37:22 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 12:37:24 PM: ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF769556CB5+28821]
+	(No symbol) [0x00007FF7694C3840]
+	(No symbol) [0x00007FF76936578A]
+	(No symbol) [0x00007FF76936C2ED]
+	(No symbol) [0x00007FF76936EFCC]
+	(No symbol) [0x00007FF76936F09F]
+	(No symbol) [0x00007FF7693C0D79]
+	(No symbol) [0x00007FF7693BE359]
+	(No symbol) [0x00007FF7693BBAF6]
+	(No symbol) [0x00007FF7693BAA51]
+	(No symbol) [0x00007FF7693ACBA0]
+	(No symbol) [0x00007FF7693DF2FA]
+	(No symbol) [0x00007FF7693AC3F6]
+	(No symbol) [0x00007FF7693DF510]
+	(No symbol) [0x00007FF7693FF412]
+	(No symbol) [0x00007FF7693DF0A3]
+	(No symbol) [0x00007FF7693AA778]
+	(No symbol) [0x00007FF7693AB8E1]
+	GetHandleVerifier [0x00007FF76988FCAD+3408013]
+	GetHandleVerifier [0x00007FF7698A741F+3504127]
+	GetHandleVerifier [0x00007FF76989B5FD+3455453]
+	GetHandleVerifier [0x00007FF76961BDBB+835995]
+	(No symbol) [0x00007FF7694CEB5F]
+	(No symbol) [0x00007FF7694CA814]
+	(No symbol) [0x00007FF7694CA9AD]
+	(No symbol) [0x00007FF7694BA199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
+
+11/29/2024 01:56:03 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 01:56:09 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 01:56:09 PM: INFO: Entered password.
+11/29/2024 01:56:09 PM: INFO: Clicked on Login button.
+11/29/2024 01:56:11 PM: INFO: Home page title verified.
+11/29/2024 01:56:11 PM: INFO: Logged in successfully.
+11/29/2024 01:56:15 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 01:56:15 PM: INFO: Step-2: Project Detail
+11/29/2024 01:56:15 PM: INFO: Generated project name: Project Test 2ef3bc56, project key: PROJ-6F3DCA5F
+11/29/2024 01:56:18 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 01:56:20 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 01:56:20 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 01:56:22 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/29/2024 01:56:24 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/29/2024 01:56:25 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/29/2024 01:56:25 PM: INFO: Step-9: Custom Field
+11/29/2024 01:56:25 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/29/2024 01:56:25 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/29/2024 01:58:16 PM: INFO: Toast message: None
+11/29/2024 01:58:59 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 01:59:05 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 01:59:05 PM: INFO: Entered password.
+11/29/2024 01:59:05 PM: INFO: Clicked on Login button.
+11/29/2024 01:59:07 PM: INFO: Home page title verified.
+11/29/2024 01:59:07 PM: INFO: Logged in successfully.
+11/29/2024 01:59:31 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 01:59:31 PM: INFO: Step-2: Project Detail
+11/29/2024 01:59:31 PM: INFO: Generated project name: Project Test 3dc56cdd, project key: PROJ-C5AD564C
+11/29/2024 01:59:34 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 01:59:36 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 01:59:37 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 01:59:38 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/29/2024 01:59:40 PM: INFO: Step-7: Task Status - Set up the statuses for tasks
+11/29/2024 01:59:41 PM: INFO: Step-8: Enable Apps - Priority, Multiple Assignees, Time Estimate, Milestones, Tags, Custom Fields, Time Tracking, and AI
+11/29/2024 01:59:42 PM: INFO: Step-9: Custom Field
+11/29/2024 01:59:42 PM: INFO: Step-10: Enable Views - List, Board, Project Details, Comments, Calendar, Activity, Workload, and Table
+11/29/2024 01:59:42 PM: INFO: Step-10: Project Summary - Details of the Project setup
+11/29/2024 02:01:32 PM: INFO: Toast message: None
+11/29/2024 02:12:22 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 02:12:28 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 02:12:28 PM: INFO: Entered password.
+11/29/2024 02:12:28 PM: INFO: Clicked on Login button.
+11/29/2024 02:12:30 PM: INFO: Home page title verified.
+11/29/2024 02:12:30 PM: INFO: Logged in successfully.
+11/29/2024 02:12:53 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 02:12:54 PM: INFO: Step-2: Project Detail
+11/29/2024 02:12:54 PM: INFO: Generated project name: Project Test 9dbcbc57, project key: PROJ-DF568B45
+11/29/2024 02:12:57 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 02:12:59 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 02:12:59 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 02:13:37 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 02:13:43 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 02:13:43 PM: INFO: Entered password.
+11/29/2024 02:13:43 PM: INFO: Clicked on Login button.
+11/29/2024 02:13:50 PM: INFO: Home page title verified.
+11/29/2024 02:13:50 PM: INFO: Logged in successfully.
+11/29/2024 02:13:52 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 02:13:53 PM: INFO: Step-2: Project Detail
+11/29/2024 02:13:53 PM: INFO: Generated project name: Project Test 49eec002, project key: PROJ-8F2275B1
+11/29/2024 02:13:55 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 02:13:58 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 02:13:58 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 02:15:01 PM: ERROR: An error occurred: Message: element click intercepted: Element <button class="cursor-pointer conditional-next-step btn border-radius-4-px white border-0 bg-blue">...</button> is not clickable at point (1854, 501). Other element would receive the click: <div data-v-35ef1933="" class="overflow-y-auto sidebar-options overflow-x-hidden" style="height: calc(100% + 0px);">...</div>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D0FC6CB5+28821]
+	(No symbol) [0x00007FF6D0F33840]
+	(No symbol) [0x00007FF6D0DD578A]
+	(No symbol) [0x00007FF6D0E30E8E]
+	(No symbol) [0x00007FF6D0E2E92C]
+	(No symbol) [0x00007FF6D0E2BAF6]
+	(No symbol) [0x00007FF6D0E2AA51]
+	(No symbol) [0x00007FF6D0E1CBA0]
+	(No symbol) [0x00007FF6D0E4F2FA]
+	(No symbol) [0x00007FF6D0E1C3F6]
+	(No symbol) [0x00007FF6D0E4F510]
+	(No symbol) [0x00007FF6D0E6F412]
+	(No symbol) [0x00007FF6D0E4F0A3]
+	(No symbol) [0x00007FF6D0E1A778]
+	(No symbol) [0x00007FF6D0E1B8E1]
+	GetHandleVerifier [0x00007FF6D12FFCAD+3408013]
+	GetHandleVerifier [0x00007FF6D131741F+3504127]
+	GetHandleVerifier [0x00007FF6D130B5FD+3455453]
+	GetHandleVerifier [0x00007FF6D108BDBB+835995]
+	(No symbol) [0x00007FF6D0F3EB5F]
+	(No symbol) [0x00007FF6D0F3A814]
+	(No symbol) [0x00007FF6D0F3A9AD]
+	(No symbol) [0x00007FF6D0F2A199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
+
+11/29/2024 02:23:20 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 02:23:26 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 02:23:26 PM: INFO: Entered password.
+11/29/2024 02:23:26 PM: INFO: Clicked on Login button.
+11/29/2024 02:23:32 PM: INFO: Home page title verified.
+11/29/2024 02:23:32 PM: INFO: Logged in successfully.
+11/29/2024 02:23:34 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 02:23:34 PM: INFO: Step-2: Project Detail
+11/29/2024 02:23:34 PM: INFO: Generated project name: Project Test 94abc4b1, project key: PROJ-F313AFFD
+11/29/2024 02:23:37 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 02:23:39 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 02:23:40 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 02:23:42 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/29/2024 02:23:44 PM: ERROR: An error occurred: Message: element click intercepted: Element <button data-v-3d0afd4e="" type="button" class="save_template">...</button> is not clickable at point (1540, 374). Other element would receive the click: <div class="back-drop"></div>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D0FC6CB5+28821]
+	(No symbol) [0x00007FF6D0F33840]
+	(No symbol) [0x00007FF6D0DD578A]
+	(No symbol) [0x00007FF6D0E30E8E]
+	(No symbol) [0x00007FF6D0E2E92C]
+	(No symbol) [0x00007FF6D0E2BAF6]
+	(No symbol) [0x00007FF6D0E2AA51]
+	(No symbol) [0x00007FF6D0E1CBA0]
+	(No symbol) [0x00007FF6D0E4F2FA]
+	(No symbol) [0x00007FF6D0E1C3F6]
+	(No symbol) [0x00007FF6D0E4F510]
+	(No symbol) [0x00007FF6D0E6F412]
+	(No symbol) [0x00007FF6D0E4F0A3]
+	(No symbol) [0x00007FF6D0E1A778]
+	(No symbol) [0x00007FF6D0E1B8E1]
+	GetHandleVerifier [0x00007FF6D12FFCAD+3408013]
+	GetHandleVerifier [0x00007FF6D131741F+3504127]
+	GetHandleVerifier [0x00007FF6D130B5FD+3455453]
+	GetHandleVerifier [0x00007FF6D108BDBB+835995]
+	(No symbol) [0x00007FF6D0F3EB5F]
+	(No symbol) [0x00007FF6D0F3A814]
+	(No symbol) [0x00007FF6D0F3A9AD]
+	(No symbol) [0x00007FF6D0F2A199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
+
+11/29/2024 02:28:57 PM: INFO: ***** Testing Create Project using blank project with all fields *****
+11/29/2024 02:29:04 PM: INFO: Entered username: aliantest385+9500@gmail.com.
+11/29/2024 02:29:04 PM: INFO: Entered password.
+11/29/2024 02:29:04 PM: INFO: Clicked on Login button.
+11/29/2024 02:29:06 PM: INFO: Home page title verified.
+11/29/2024 02:29:06 PM: INFO: Logged in successfully.
+11/29/2024 02:29:29 PM: INFO: Step-1: Project Type - Blank Project or Use a Template
+11/29/2024 02:29:30 PM: INFO: Step-2: Project Detail
+11/29/2024 02:29:30 PM: INFO: Generated project name: Project Test B6285989, project key: PROJ-8DE9CBB7
+11/29/2024 02:29:33 PM: INFO: Step-3: Project Avatar or Project Color
+11/29/2024 02:29:35 PM: INFO: Step-4: Project Type - Public Project or Private Project
+11/29/2024 02:29:35 PM: INFO: Step-5: Task Type - Add the type of tasks you need
+11/29/2024 02:29:37 PM: INFO: Step-6: Project Status - Add the statuses for the project
+11/29/2024 02:31:21 PM: ERROR: An error occurred: Message: element click intercepted: Element <button class="cursor-pointer conditional-next-step btn border-radius-4-px white border-0 bg-blue">...</button> is not clickable at point (1854, 532). Other element would receive the click: <div data-v-35ef1933="" class="overflow-y-auto sidebar-options overflow-x-hidden" style="height: calc(100% + 0px);">...</div>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D0FC6CB5+28821]
+	(No symbol) [0x00007FF6D0F33840]
+	(No symbol) [0x00007FF6D0DD578A]
+	(No symbol) [0x00007FF6D0E30E8E]
+	(No symbol) [0x00007FF6D0E2E92C]
+	(No symbol) [0x00007FF6D0E2BAF6]
+	(No symbol) [0x00007FF6D0E2AA51]
+	(No symbol) [0x00007FF6D0E1CBA0]
+	(No symbol) [0x00007FF6D0E4F2FA]
+	(No symbol) [0x00007FF6D0E1C3F6]
+	(No symbol) [0x00007FF6D0E4F510]
+	(No symbol) [0x00007FF6D0E6F412]
+	(No symbol) [0x00007FF6D0E4F0A3]
+	(No symbol) [0x00007FF6D0E1A778]
+	(No symbol) [0x00007FF6D0E1B8E1]
+	GetHandleVerifier [0x00007FF6D12FFCAD+3408013]
+	GetHandleVerifier [0x00007FF6D131741F+3504127]
+	GetHandleVerifier [0x00007FF6D130B5FD+3455453]
+	GetHandleVerifier [0x00007FF6D108BDBB+835995]
+	(No symbol) [0x00007FF6D0F3EB5F]
+	(No symbol) [0x00007FF6D0F3A814]
+	(No symbol) [0x00007FF6D0F3A9AD]
+	(No symbol) [0x00007FF6D0F2A199]
+	BaseThreadInitThunk [0x00007FFA27887374+20]
+	RtlUserThreadStart [0x00007FFA2989CC91+33]
+
